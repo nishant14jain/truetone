@@ -8436,6 +8436,11 @@ p {
   font-weight: bold;
 }
 
+.footer {
+  padding: 45px 0px;
+  background: #222;
+}
+
 .footer .social-wrapper .social-btns .btn,
 .footer .social-wrapper .social-btns .btn:before,
 .footer .social-wrapper .social-btns .btn .fa {
@@ -8513,11 +8518,6 @@ p {
   margin: auto;
   font-size: 0;
   text-align: center;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
 }
 
 .footer .social-wrapper .social-btns .btn {
