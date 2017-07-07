@@ -746,7 +746,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(8);
-module.exports = __webpack_require__(36);
+module.exports = __webpack_require__(37);
 
 
 /***/ }),
@@ -762,10 +762,15 @@ module.exports = __webpack_require__(36);
 
 __webpack_require__(9);
 __webpack_require__(35);
-__webpack_require__(47);
 
 $(document).ready(function () {
 	$('.pmd-tabs').pmdTab();
+	// grab an element
+	var myElement = document.querySelector("header");
+	// construct an instance of Headroom, passing the element
+	var headroom = new Headroom(myElement);
+	// initialise
+	headroom.init();
 });
 
 // window.Vue = require('vue');
@@ -31918,44 +31923,11 @@ module.exports = function spread(callback) {
 })(jQuery);
 
 /***/ }),
-/* 36 */
+/* 36 */,
+/* 37 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 37 */,
-/* 38 */,
-/* 39 */,
-/* 40 */,
-/* 41 */,
-/* 42 */,
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */
-/***/ (function(module, exports) {
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-/*!
- * headroom.js v0.9.4 - Give your page some headroom. Hide your header until you need it
- * Copyright (c) 2017 Nick Williams - http://wicky.nillia.ms/headroom.js
- * License: MIT
- */
-alert();
-!function (a) {
-  a && (a.fn.headroom = function (b) {
-    return this.each(function () {
-      var c = a(this),
-          d = c.data("headroom"),
-          e = "object" == (typeof b === "undefined" ? "undefined" : _typeof(b)) && b;e = a.extend(!0, {}, Headroom.options, e), d || (d = new Headroom(this, e), d.init(), c.data("headroom", d)), "string" == typeof b && (d[b](), "destroy" === b && c.removeData("headroom"));
-    });
-  }, a("[data-headroom]").each(function () {
-    var b = a(this);b.headroom(b.data());
-  }));
-}(window.Zepto || window.jQuery);
 
 /***/ })
 /******/ ]);

@@ -14,10 +14,10 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-
+<script src='https://unpkg.com/headroom.js'></script>
 <script src='{{asset('js/app.js')}}'></script>
 <body>
-  <div class='headnav'>
+  <header id='header' class='headnav headroom'>
     <div class='limitWidth'>
       <div class='pull-left'>
         <ul class='headnav-links'>
@@ -53,7 +53,7 @@
       </div>
       <div class='clearfix'></div>
     </div>
-  </div>
+  </header>
 
   <div class='page-content homepage'>
     <section class='landing'>

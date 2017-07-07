@@ -7,10 +7,16 @@
 
 require('./bootstrap');
 require('./tab-scrollable.js');
-require('./jQuery.headroom.min.js');
+
 
 $(document).ready( function() {
 	$('.pmd-tabs').pmdTab();
+	// grab an element
+	var myElement = document.querySelector("header");
+	// construct an instance of Headroom, passing the element
+	var headroom  = new Headroom(myElement);
+	// initialise
+	headroom.init();
 });
 
 // window.Vue = require('vue');
