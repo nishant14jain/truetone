@@ -51,7 +51,7 @@ p{
 //Header ----------------------------------------------------
 .headroom {
 	will-change: transform;
-	transition: transform 200ms linear;
+	transition: transform 250ms ease-in-out;
 }
 .headroom--pinned {
 	transform: translateY(0%);
@@ -218,10 +218,8 @@ p{
 		background:#f8f8f8;
 		padding:0;
 		text-align:center;
-		line-height:calc(100vh - 228px);
-		img{
-			max-width:100%;
-		}
+		height:calc(100vh - 228px);
+		
 	}
 	section.featuring{
 		padding:0;
