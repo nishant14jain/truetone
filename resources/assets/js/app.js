@@ -7,6 +7,7 @@
 
 require('./bootstrap');
 require('./tab-scrollable.js');
+require('./jQuery.headroom.min.js');
 
 $(document).ready( function() {
 	$('.pmd-tabs').pmdTab();
