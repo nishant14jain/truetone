@@ -13,6 +13,8 @@
   <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
+
+<script src='{{asset('js/app.js')}}'></script>
 <body>
   <div class='headnav'>
     <div class='limitWidth'>
@@ -109,6 +111,61 @@
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class='infographic'>
+      <div class='container'>
+        <h1>Infographic</h1>
+      </div>
+    </section>
+    <section class='blogNews'>
+      <div class='container'>
+        <h1>Blog & News</h1>
+      </div>
+    </section>
+    <section class='testimonials'>
+      <div class='container'>
+        <h1>Testimonials</h1>
+      </div>
+    </section>
+    <section class='faq'>
+      <div class='container'>
+        <h1>FAQ'S</h1>
+        <div class="pmd-card">
+          <div class="pmd-tabs pmd-tabs-bg">
+            <div class="pmd-tab-active-bar"></div>
+            <ul role="tablist" class="nav nav-tabs nav-justified notVisible">
+              <li class="active" role="presentation">
+                <a data-toggle="tab" role="tab" aria-controls="home" href="#dyes-faq" aria-expanded="true">Dyes</a>
+              </li>
+              <li role="presentation" class="">
+                <a data-toggle="tab" role="tab" aria-controls="profile" href="#yarns-faq" aria-expanded="false">Yarns</a>
+              </li>
+              <li role="presentation" class="">
+                <a data-toggle="tab" role="tab" aria-controls="messages" href="#fabrics-faq" aria-expanded="false">Fabrics</a>
+              </li>
+              <li role="presentation" class="">
+                <a data-toggle="tab" role="tab" aria-controls="messages" href="#partners-faq" aria-expanded="false">Partners</a>
+              </li>
+            </ul>
+          </div>
+          <div class="pmd-card-body">
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="dyes-faq">
+
+              </div>
+              <div role="tabpanel" class="tab-pane" id="yarns-faq">
+
+              </div>
+              <div role="tabpanel" class="tab-pane" id="fabrics-faq">
+
+              </div>
+              <div role="tabpanel" class="tab-pane" id="partners-faq">
+
+              </div>
             </div>
           </div>
         </div>

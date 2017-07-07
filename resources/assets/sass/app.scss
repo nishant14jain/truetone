@@ -8,6 +8,10 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+// @import "dropdown.css";
+// @import "google-icons.css";
+@import "tab.css";
+
 
 //Font Awesome
 
@@ -30,6 +34,7 @@ body{
 }
 h1{
 	font-size:48px;
+	margin:25px 0px;
 }
 p{
 	line-height:30px;
@@ -90,6 +95,7 @@ p{
 
 //Footer ----------------------------------------------------
 .footer{
+	display:none;
 	padding:45px 0px;
 	background:#222;
 	.social-wrapper{
@@ -190,10 +196,14 @@ p{
 //Homepage ----------------------------------------------------
 .page-content{
 	margin-top:107px;
+	section{
+		padding:80px 0px;
+	}
 }
 .page-content.homepage{
 	section.landing{
 		background:#f8f8f8;
+		padding:0;
 		text-align:center;
 		line-height:calc(100vh - 228px);
 		img{
@@ -201,6 +211,7 @@ p{
 		}
 	}
 	section.featuring{
+		padding:0;
 		margin-top:120px;
 		background:#111;
 		.strip{
@@ -292,5 +303,16 @@ p{
 		h2{
 			color:$s-color2;
 		}
+	}
+	section.infographic, section.faq, section.blogNews, section.testimonials{
+		@extend section.whoweare;
+	}
+	section.infographic{
+		@extend section.ourprocess;
+		background:$p-color1;
+	}
+	section.testimonials{
+		@extend section.ourprocess;
+		background:$p-color3;
 	}
 }

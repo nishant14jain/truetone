@@ -1,4 +1,44 @@
-@import url(https://fonts.googleapis.com/css?family=Signika:300,400,600,700);@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Signika:300,400,600,700);@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700);
+/*!
+ * Propeller v1.1.0 (http://propeller.in): tab.css
+ * Copyright 2016-2017 Digicorp, Inc.
+ * Licensed under MIT (http://propeller.in/LICENSE)
+ */
+
+.pmd-tabs{ position:relative;}
+.pmd-tab-active-bar { position: absolute; bottom: 0; width: 25%; height: 3px; background: #CC0; transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -webkit-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+.pmd-tabs-scroll-container {display: block; width: 100%; height: 48px; position: relative; overflow: hidden;}
+.pmd-tabs-scroll-right {float: right; right:0; top:0;}
+.pmd-tabs-scroll-left {float: left; left:0;}
+.pmd-tabs-scroll-right, .pmd-tabs-scroll-left{ position:absolute; z-index:99; text-align: center; cursor: pointer; display: none; white-space: no-wrap; vertical-align: middle; padding:12px 24px 8px 24px; background-color:#4285f4; color:#fff;}
+.pmd-tabs .pmd-tab-active-bar { position: absolute; bottom: 0; width: 25%; height: 3px; background: #CC0;}
+.pmd-tabs .nav-tabs.nav-justified > li > a { border:none;  border-radius:0;}
+.pmd-tabs .nav-tabs.nav-justified > .active > a,
+.pmd-tabs .nav-tabs.nav-justified > .active > a:hover,
+.pmd-tabs .nav-tabs.nav-justified > .active > a:focus { border:none;}
+.pmd-tabs .nav-tabs.nav-justified > li > a{border-radius: 0;}
+.pmd-tabs .nav-tabs > li.active > a,
+.pmd-tabs .nav-tabs > li.active > a:hover,
+.pmd-tabs .nav-tabs > li.active > a:focus { color: inherit; cursor: default; background-color: transparent;  border: none;  border-bottom-color: transparent; opacity:1;}
+.pmd-tabs .nav-tabs > li > a:hover {border-color: transparent; background-color:transparent}
+.pmd-tabs .nav-tabs > li > a { margin-right: 0; line-height: 1; border:none; border-radius: 0; text-transform:uppercase;}
+.pmd-tabs .nav-tabs > li { margin-bottom: 0;}
+.pmd-tabs .nav-tabs { border-bottom:none;}
+.pmd-tabs .nav .open > a,
+.pmd-tabs .nav .open > a:hover,
+.pmd-tabs .nav .open > a:focus,
+.pmd-tabs .nav > li > a:hover, 
+.pmd-tabs .nav > li > a:focus { background-color: transparent; border-color: transparent;}
+.pmd-tabs .nav > li > a { padding: 18px 24px 17px; font-size:14px;}
+.nav-tabs > li > a { opacity:0.54; color:#000; font-weight:500;}
+.pmd-tabs-bg{ background-color:#4285f4; color:#fff;}
+.pmd-tabs-bg li .dropdown-menu a {color:#333;}
+.pmd-tabs-bg li a {color:#fff;}
+.pmd-tabs-bg .pmd-tabs-scroll-right, .pmd-tabs-bg .pmd-tabs-scroll-left, 
+.pmd-tabs-bg .pmd-tabs-scroll-container{background-color:#4285f4; color:#fff;}
+@media (max-width: 767px) {
+.pmd-tabs{ overflow-x: auto; overflow-y: hidden;}
+}@charset "UTF-8";
 
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -8370,6 +8410,7 @@ body {
 
 h1 {
   font-size: 48px;
+  margin: 25px 0px;
 }
 
 p {
@@ -8437,6 +8478,7 @@ p {
 }
 
 .footer {
+  display: none;
   padding: 45px 0px;
   background: #222;
 }
@@ -8554,8 +8596,13 @@ p {
   margin-top: 107px;
 }
 
+.page-content section {
+  padding: 80px 0px;
+}
+
 .page-content.homepage section.landing {
   background: #f8f8f8;
+  padding: 0;
   text-align: center;
   line-height: calc(100vh - 228px);
 }
@@ -8565,6 +8612,7 @@ p {
 }
 
 .page-content.homepage section.featuring {
+  padding: 0;
   margin-top: 120px;
   background: #111;
 }
@@ -8636,40 +8684,68 @@ p {
 
 .page-content.homepage section.whoweare,
 .page-content.homepage section.ourprocess,
-.page-content.homepage section.certified {
+.page-content.homepage section.infographic,
+.page-content.homepage section.testimonials,
+.page-content.homepage section.certified,
+.page-content.homepage section.faq,
+.page-content.homepage section.blogNews {
   text-align: center;
   padding: 80px 0px;
 }
 
 .page-content.homepage section.whoweare h1,
 .page-content.homepage section.ourprocess h1,
-.page-content.homepage section.certified h1 {
+.page-content.homepage section.infographic h1,
+.page-content.homepage section.testimonials h1,
+.page-content.homepage section.certified h1,
+.page-content.homepage section.faq h1,
+.page-content.homepage section.blogNews h1 {
   color: #373737;
   font-weight: 800;
 }
 
 .page-content.homepage section.whoweare h3,
 .page-content.homepage section.ourprocess h3,
-.page-content.homepage section.certified h3 {
+.page-content.homepage section.infographic h3,
+.page-content.homepage section.testimonials h3,
+.page-content.homepage section.certified h3,
+.page-content.homepage section.faq h3,
+.page-content.homepage section.blogNews h3 {
   color: #747474;
   line-height: 40px;
   font-style: italic;
 }
 
-.page-content.homepage section.ourprocess {
+.page-content.homepage section.ourprocess,
+.page-content.homepage section.infographic,
+.page-content.homepage section.testimonials {
   background: #C68889;
 }
 
 .page-content.homepage section.ourprocess h1,
-.page-content.homepage section.ourprocess h3 {
+.page-content.homepage section.infographic h1,
+.page-content.homepage section.testimonials h1,
+.page-content.homepage section.ourprocess h3,
+.page-content.homepage section.infographic h3,
+.page-content.homepage section.testimonials h3 {
   color: white;
 }
 
-.page-content.homepage section.ourprocess h3 {
+.page-content.homepage section.ourprocess h3,
+.page-content.homepage section.infographic h3,
+.page-content.homepage section.testimonials h3 {
   opacity: 0.7;
 }
 
 .page-content.homepage section.certified h2 {
   color: #8D3C3E;
+}
+
+.page-content.homepage section.infographic {
+  background: #A7A998;
+}
+
+.page-content.homepage section.testimonials {
+  background: #9E95AE;
 }
 
