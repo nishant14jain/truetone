@@ -746,7 +746,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(8);
-module.exports = __webpack_require__(35);
+module.exports = __webpack_require__(36);
 
 
 /***/ }),
@@ -761,7 +761,7 @@ module.exports = __webpack_require__(35);
 */
 
 __webpack_require__(9);
-__webpack_require__(48);
+__webpack_require__(35);
 
 $(document).ready(function () {
 	$('.pmd-tabs').pmdTab();
@@ -31697,24 +31697,6 @@ module.exports = function spread(callback) {
 /* 35 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 36 */,
-/* 37 */,
-/* 38 */,
-/* 39 */,
-/* 40 */,
-/* 41 */,
-/* 42 */,
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */,
-/* 48 */
-/***/ (function(module, exports) {
-
 
 /*!
  * Propeller v1.1.0 (http://propeller.in): tab.js
@@ -31933,6 +31915,12 @@ module.exports = function spread(callback) {
 		});
 	};
 })(jQuery);
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 /******/ ]);

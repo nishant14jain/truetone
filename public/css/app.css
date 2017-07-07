@@ -8423,6 +8423,10 @@ p {
   margin-right: auto;
 }
 
+.material-icons {
+  vertical-align: middle;
+}
+
 .headnav {
   position: fixed;
   width: 100%;
@@ -8747,5 +8751,33 @@ p {
 
 .page-content.homepage section.testimonials {
   background: #9E95AE;
+}
+
+.page-content.homepage section.faq .pmd-card {
+  margin: 45px 0px;
+}
+
+.page-content.homepage section.faq .pmd-tabs .nav-tabs.nav-justified > li > a {
+  color: #373737;
+  font-size: 20px;
+  border-bottom: 1px solid #747474;
+}
+
+.page-content.homepage section.faq .pmd-tabs-bg {
+  color: #373737;
+}
+
+.page-content.homepage section.faq .pmd-tabs-bg {
+  background: white;
+}
+
+.page-content.homepage section.faq .pmd-tabs .pmd-tab-active-bar {
+  background: #8D3C3E;
+  height: 4px;
+  z-index: 1;
+}
+
+.page-content.homepage section.faq .tab-content > .tab-pane {
+  height: 400px;
 }
 

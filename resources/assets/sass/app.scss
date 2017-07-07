@@ -12,7 +12,6 @@
 // @import "google-icons.css";
 @import "tab.css";
 
-
 //Font Awesome
 
 
@@ -44,6 +43,9 @@ p{
 	// max-width:$limitWidth;
 	margin-left:auto;
 	margin-right:auto;
+}
+.material-icons{
+	vertical-align:middle;
 }
 
 //Header ----------------------------------------------------
@@ -314,5 +316,29 @@ p{
 	section.testimonials{
 		@extend section.ourprocess;
 		background:$p-color3;
+	}
+	section.faq{
+		.pmd-card{
+			margin:45px 0px;
+		}
+		.pmd-tabs .nav-tabs.nav-justified > li > a{
+			color:$gray1;
+			font-size:20px;
+			border-bottom: 1px solid $gray3;
+		}
+		.pmd-tabs-bg{
+			color:$gray1;
+		}
+		.pmd-tabs-bg{
+			background:white;
+		}
+		.pmd-tabs .pmd-tab-active-bar{
+			background:$s-color2;
+			height:4px;
+			z-index:1;
+		}
+		.tab-content > .tab-pane{
+			height:400px;
+		}
 	}
 }
