@@ -47,6 +47,14 @@ p{
 .material-icons{
 	vertical-align:middle;
 }
+.true-btn{
+	border-radius:40px;
+	padding:15px 25px;
+	margin:15px 0px;
+	display:inline-block;
+	background:white;
+	min-width:170px;
+}
 
 //Header ----------------------------------------------------
 
@@ -123,6 +131,7 @@ p{
 		height:77px;
 	}
 	background:$headnav-bg;
+	box-shadow:0px 4px 14px -8px black;
 }
 
 
@@ -243,10 +252,20 @@ p{
 			min-height:500px;
 			background:black;
 			overflow:hidden;
+			h1{
+				position: absolute;
+				width: 100%;
+				top: 42%;
+				transform: translateY(-50%);
+				font-size: 65px;
+				color: white;
+				z-index: 0;
+				font-weight:bold;
+			}
 			video{
 				width:100%;
 				transform:scale(1.2);
-				opacity:0.75;
+				opacity:0.5;
 			}
 		}
 
@@ -258,7 +277,6 @@ p{
 			position:relative;
 			float:left;
 			width:33.33%;
-			border-right:1px solid rgba(255,255,255,0.9);
 			// box-shadow:inset 0px 0px 90px -15px black;
 			transition:all 0.4s ease-in-out;
 			.overlay{
@@ -289,16 +307,24 @@ p{
 
 		.strip.yarn{
 			background:$p-color1;
-			background-image: url(https://www.transparenttextures.com/patterns/black-linen-2.png);
+			background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
+			.true-btn{
+				color:$p-color1;
+			}
 		}
 		.strip.dye{
 			background:$p-color2;
-			background-image: url(https://www.transparenttextures.com/patterns/black-linen-2.png);
+			background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
+			.true-btn{
+				color:$p-color2;
+			}
 		}
 		.strip.fabric{
 			background:$p-color3;
-			background-image: url(https://www.transparenttextures.com/patterns/black-linen-2.png);
-			border:0;
+			background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
+			.true-btn{
+				color:$p-color3;
+			}
 		}
 	}
 	.featuring:hover{
@@ -321,6 +347,9 @@ p{
 		}
 	}
 	section.ourprocess{
+		.true-btn{
+			color:$p-color2;
+		}
 		@extend section.whoweare;
 		background:$p-color2;
 		h1,h3{
@@ -331,6 +360,10 @@ p{
 		}
 	}
 	section.certified{
+		.true-btn{
+			background:$s-color2;
+			color:white;
+		}
 		@extend section.whoweare;
 		h2{
 			color:$s-color2;
