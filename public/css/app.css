@@ -8396,7 +8396,7 @@ hr {
 }
 
 body {
-  font-size: 18px;
+  font-size: 16px;
   color: #616161;
 }
 
@@ -8427,24 +8427,6 @@ p {
   vertical-align: middle;
 }
 
-.headroom {
-  will-change: transform;
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-}
-
-.headroom--pinned {
-  -webkit-transform: translateY(0%);
-          transform: translateY(0%);
-}
-
-.headroom--unpinned {
-  -webkit-transform: translateY(-100%);
-          transform: translateY(-100%);
-}
-
 .headnav {
   position: fixed;
   width: 100%;
@@ -8452,13 +8434,8 @@ p {
   left: 0;
   z-index: 10;
   border-top: 5px solid #9E95AE;
-  background: rgba(255, 255, 255, 0.9);
-  line-height: 100px;
+  line-height: 75px;
   padding: 0px 25px;
-}
-
-.headnav .limitWidth {
-  border-bottom: 1px solid #CCCCCC;
 }
 
 .headnav .logo {
@@ -8487,16 +8464,48 @@ p {
   font-weight: 500;
   display: block;
   padding: 0px 15px;
-  color: #616161;
+  color: #373737;
+  opacity: 0.7;
   -webkit-transition: all 0.0s;
   transition: all 0.0s;
-  min-width: 95px;
   text-align: center;
+  font-weight: bold;
 }
 
 .headnav .headnav-links a:hover {
-  color: #373737;
-  font-weight: bold;
+  opacity: 1;
+}
+
+.headroom {
+  will-change: background;
+  -webkit-transition: background 250ms ease-in-out;
+  transition: background 250ms ease-in-out;
+}
+
+.headroom--top {
+  background: transparent;
+}
+
+.headroom--top svg {
+  height: 150px;
+  -webkit-transition: height 250ms ease-in-out;
+  transition: height 250ms ease-in-out;
+}
+
+.headroom--top svg path {
+  fill: white;
+}
+
+.headroom--top .headnav-links a {
+  color: white;
+}
+
+.headroom--not-top {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.headroom--not-top svg {
+  height: 77px;
 }
 
 .footer {
@@ -8614,10 +8623,6 @@ p {
   vertical-align: middle;
 }
 
-.page-content {
-  margin-top: 107px;
-}
-
 .page-content section {
   padding: 80px 0px;
 }
@@ -8626,42 +8631,47 @@ p {
   background: #f8f8f8;
   padding: 0;
   text-align: center;
-  height: calc(100vh - 228px);
+}
+
+.page-content.homepage section.landing .fullscreen-bg {
+  height: 90vh;
+  min-height: 500px;
+  background: black;
+  overflow: hidden;
+}
+
+.page-content.homepage section.landing .fullscreen-bg video {
+  width: 100%;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  opacity: 0.75;
 }
 
 .page-content.homepage section.featuring {
   padding: 0;
-  margin-top: 120px;
   background: #111;
 }
 
 .page-content.homepage section.featuring .strip {
   position: relative;
   float: left;
-  height: 500px;
   width: 33.33%;
-  background-size: cover !important;
   border-right: 1px solid rgba(255, 255, 255, 0.9);
-  -webkit-box-shadow: inset 0px 0px 90px -15px black;
-          box-shadow: inset 0px 0px 90px -15px black;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 .page-content.homepage section.featuring .strip .overlay {
+  position: relative;
   padding: 45px;
-  background: rgba(0, 0, 0, 0.65);
 }
 
 .page-content.homepage section.featuring .strip h1 {
+  color: white;
   margin: 15px 0px;
   padding: 15px 0px;
   border-bottom: 10px solid;
   display: inline-block;
-  position: absolute;
-  top: -107px;
-  left: 0;
-  width: 100%;
   text-align: center;
   font-weight: 600;
 }
@@ -8674,24 +8684,20 @@ p {
   line-height: 35px;
 }
 
-.page-content.homepage section.featuring .strip:hover {
-  background-position-y: -50px !important;
+.page-content.homepage section.featuring .strip.yarn {
+  background: #A7A998;
+  background-image: url(https://www.transparenttextures.com/patterns/black-linen-2.png);
 }
 
-.page-content.homepage section.featuring .strip.yarn h1 {
-  color: #A7A998;
-}
-
-.page-content.homepage section.featuring .strip.dye h1 {
-  color: #C68889;
+.page-content.homepage section.featuring .strip.dye {
+  background: #C68889;
+  background-image: url(https://www.transparenttextures.com/patterns/black-linen-2.png);
 }
 
 .page-content.homepage section.featuring .strip.fabric {
+  background: #9E95AE;
+  background-image: url(https://www.transparenttextures.com/patterns/black-linen-2.png);
   border: 0;
-}
-
-.page-content.homepage section.featuring .strip.fabric h1 {
-  color: #9E95AE;
 }
 
 .page-content.homepage .featuring:hover .strip:not(:hover) {
@@ -8791,7 +8797,21 @@ p {
   z-index: 1;
 }
 
+.page-content.homepage section.faq .tab-content {
+  text-align: left;
+}
+
 .page-content.homepage section.faq .tab-content > .tab-pane {
   height: 400px;
+}
+
+.page-content.homepage section.faq .panel-title > a {
+  display: block;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.page-content.homepage section.faq .panel-default > .panel-heading {
+  padding: 0px;
 }
 

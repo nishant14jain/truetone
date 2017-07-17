@@ -33,7 +33,7 @@
         </ul>
       </div>
       <div class='logo'>
-        <img src='{{asset('images/logo.svg')}}'>
+        <img class='svg' src='{{asset('images/logo.svg')}}'>
       </div>
       <div class='pull-right'>
         <ul class='headnav-links'>
@@ -64,19 +64,19 @@
         </div>
       </section>
       <section class='featuring'>
-        <div class="strip dye" style='background:url({{asset('images/homepage/dye.png')}})'>
+        <div class="strip dye">
           <div class='overlay'>
             <h1>Dyes</h1>
             <p>Truetone is the leading online shop of herbal dyed organic clothes for men and women. We have a wide range of natural clothing from underwear to fabrics and towels and more. Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</p>
           </div>
         </div>
-        <div class="strip yarn" style='background:url({{asset('images/homepage/yarn.png')}})'>
+        <div class="strip yarn">
           <div class='overlay'>
             <h1>Yarns</h1>
             <p>Truetone is the leading online shop of herbal dyed organic clothes for men and women. We have a wide range of natural clothing from underwear to fabrics and towels and more. Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</p>
           </div>
         </div>
-        <div class="strip fabric" style='background:url({{asset('images/homepage/fabric.png')}})'>
+        <div class="strip fabric">
           <div class='overlay'>
             <h1>Fabrics</h1>
             <p>Truetone is the leading online shop of herbal dyed organic clothes for men and women. We have a wide range of natural clothing from underwear to fabrics and towels and more. Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</p>
@@ -160,12 +160,15 @@
             <div class="pmd-card-body">
               <div class="tab-content">
                 <div role="tabpanel" class="tab-pane active" id="dyes-faq">
-                  <!-- Accordion with No Space example -->
                   <div class="panel-group pmd-accordion pmd-accordion-nospace" id="accordion5" role="tablist" aria-multiselectable="true" >
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingOne">
                         <h4 class="panel-title">
-                          <a data-toggle="collapse"  data-parent="#accordion5" href="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5" data-expandable="false"> Collapsible Group Item #1 <i class="material-icons md-dark pmd-sm pmd-accordion-arrow">keyboard_arrow_down</i></a>
+                          <a data-toggle="collapse"  data-parent="#accordion5" href="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5" data-expandable="false">
+                             <span class='pull-left'>What are Herbal Dyes?</span>
+                             <span class='pull-right'><i class="material-icons md-dark pmd-sm pmd-accordion-arrow">keyboard_arrow_down</i></span>
+                             <div class='clearfix'></div>
+                           </a>
                         </h4>
                       </div>
                       <div id="collapseOne5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
@@ -175,7 +178,11 @@
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingTwo">
                         <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion5" href="#collapseTwo5" aria-expanded="false" aria-controls="collapseTwo5"  data-expandable="false"> Collapsible Group Item #2 <i class="material-icons md-dark pmd-sm pmd-accordion-arrow">keyboard_arrow_down</i></a>
+                          <a data-toggle="collapse"  data-parent="#accordion5" href="#collapseTwo5" aria-expanded="true" aria-controls="collapseTwo5" data-expandable="false">
+                             <span class='pull-left'>How are Herbal Dyes made?</span>
+                             <span class='pull-right'><i class="material-icons md-dark pmd-sm pmd-accordion-arrow">keyboard_arrow_down</i></span>
+                             <div class='clearfix'></div>
+                           </a>
                         </h4>
                       </div>
                       <div id="collapseTwo5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -185,7 +192,11 @@
                     <div class="panel panel-default">
                       <div class="panel-heading" role="tab" id="headingThree">
                         <h4 class="panel-title">
-                          <a data-toggle="collapse" data-parent="#accordion5" href="#collapseThree5" aria-expanded="false" aria-controls="collapseThree5"  data-expandable="false"> Collapsible Group Item #3 <i class="material-icons md-dark pmd-sm pmd-accordion-arrow">keyboard_arrow_down</i></a>
+                          <a data-toggle="collapse"  data-parent="#accordion5" href="#collapseThree5" aria-expanded="true" aria-controls="collapseThree5" data-expandable="false">
+                             <span class='pull-left'>question 3?</span>
+                             <span class='pull-right'><i class="material-icons md-dark pmd-sm pmd-accordion-arrow">keyboard_arrow_down</i></span>
+                             <div class='clearfix'></div>
+                           </a>
                         </h4>
                       </div>
                       <div id="collapseThree5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">

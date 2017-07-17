@@ -21,7 +21,7 @@ hr{
 	border-color:rgba(0,0,0,0.1);
 }
 body{
-	font-size:18px;
+	font-size:16px;
 	color:$gray2;
 }
 .overlay{
@@ -49,16 +49,6 @@ p{
 }
 
 //Header ----------------------------------------------------
-.headroom {
-	will-change: transform;
-	transition: transform 250ms ease-in-out;
-}
-.headroom--pinned {
-	transform: translateY(0%);
-}
-.headroom--unpinned {
-	transform: translateY(-100%);
-}
 
 .headnav{
 	position: fixed;
@@ -67,11 +57,10 @@ p{
 	left: 0;
 	z-index:10;
 	border-top:5px solid #9E95AE;
-	background:$headnav-bg;
 	line-height:$headnav-line-height;
 	padding:0px 25px;
 	.limitWidth{
-		border-bottom:1px solid $gray5;
+		// border-bottom:1px solid $gray5;
 	}
 	.logo{
 		position: absolute;
@@ -93,18 +82,49 @@ p{
 			font-weight:500;
 			display:block;
 			padding:0px 15px;
-			color:$gray2;
+			color:$gray1;
+			opacity:0.7;
 			transition:all 0.0s;
-			min-width:95px;
 			text-align:center;
+			font-weight:bold;
 		}
 		a:hover{
-			// font-weight:bold;
-			color:$gray1;
-			font-weight:bold;
+			opacity:1;
 		}
 	}
 }
+.headroom {
+	will-change: background;
+	transition: background 250ms ease-in-out;
+}
+.headroom--pinned {
+	// transform: translateY(0%);
+}
+.headroom--unpinned {
+	// transform: translateY(-100%);
+}
+.headroom--top{
+	background:transparent;
+	svg{
+		height:150px;
+		transition:height 250ms ease-in-out;
+	}
+	svg path{
+		fill:white;
+	}
+	.headnav-links{
+		a{
+			color:white;
+		}
+	}
+}
+.headroom--not-top{
+	svg{
+		height:77px;
+	}
+	background:$headnav-bg;
+}
+
 
 //Footer ----------------------------------------------------
 .footer{
@@ -208,7 +228,6 @@ p{
 
 //Homepage ----------------------------------------------------
 .page-content{
-	margin-top:107px;
 	section{
 		padding:80px 0px;
 	}
@@ -218,35 +237,40 @@ p{
 		background:#f8f8f8;
 		padding:0;
 		text-align:center;
-		height:calc(100vh - 228px);
-		
+		// height:calc(100vh - 228px);
+		.fullscreen-bg{
+			height:90vh;
+			min-height:500px;
+			background:black;
+			overflow:hidden;
+			video{
+				width:100%;
+				transform:scale(1.2);
+				opacity:0.75;
+			}
+		}
+
 	}
 	section.featuring{
 		padding:0;
-		margin-top:120px;
 		background:#111;
 		.strip{
 			position:relative;
 			float:left;
-			height:500px;
 			width:33.33%;
-			background-size:cover !important;
 			border-right:1px solid rgba(255,255,255,0.9);
-			box-shadow:inset 0px 0px 90px -15px black;
+			// box-shadow:inset 0px 0px 90px -15px black;
 			transition:all 0.4s ease-in-out;
 			.overlay{
+				position:relative;
 				padding: 45px;
-				background: rgba(0,0,0,0.65);
 			}
 			h1{
+				color:white;
 				margin: 15px 0px;
 				padding: 15px 0px;
 				border-bottom: 10px solid;
 				display: inline-block;
-				position: absolute;
-				top: -107px;
-				left: 0;
-				width: 100%;
 				text-align: center;
 				font-weight: 600;
 			}
@@ -259,25 +283,22 @@ p{
 			}
 		}
 		.strip:hover{
-			background-position-y:-50px !important;
+			// background-position-y:-50px !important;
 			// filter:grayscale(0%);
 		}
 
 		.strip.yarn{
-			h1{
-				color:$p-color1;
-			}
+			background:$p-color1;
+			background-image: url(https://www.transparenttextures.com/patterns/black-linen-2.png);
 		}
 		.strip.dye{
-			h1{
-				color:$p-color2;
-			}
+			background:$p-color2;
+			background-image: url(https://www.transparenttextures.com/patterns/black-linen-2.png);
 		}
 		.strip.fabric{
+			background:$p-color3;
+			background-image: url(https://www.transparenttextures.com/patterns/black-linen-2.png);
 			border:0;
-			h1{
-				color:$p-color3;
-			}
 		}
 	}
 	.featuring:hover{
@@ -346,8 +367,19 @@ p{
 			height:4px;
 			z-index:1;
 		}
+		.tab-content{
+			text-align:left;
+		}
 		.tab-content > .tab-pane{
 			height:400px;
+		}
+		.panel-title > a{
+			display:block;
+			padding:15px;
+			font-weight:bold;
+		}
+		.panel-default > .panel-heading{
+			padding:0px;
 		}
 	}
 }
