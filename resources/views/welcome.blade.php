@@ -58,7 +58,8 @@
   <div class='page-content homepage'>
     <section class='landing'>
       <div class="fullscreen-bg">
-        <h1>Changing the way <br />the world sees color</h1>
+        <!-- <img class='svg' src='{{asset('images/logo.svg')}}'> -->
+        <h1>We live and dye naturally</h1>
         <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
           <source src="{{asset('images/truetone2.mp4')}}" type="video/mp4">
           </video>
@@ -68,7 +69,9 @@
         <div class="strip dye">
           <div class='overlay'>
             <h1>Dyes</h1>
-            <p>Truetone is the leading online shop of herbal dyed organic clothes for men and women. We have a wide range of natural clothing from underwear to fabrics and towels and more. Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</p>
+            <p>Herbal Dyes are made with the love of nature and goodness of Auyrvedic herbs. Truetone Inc.
+brings you the technology of industrial level dyes with the ancient art of natural dyeing at its core. Save
+our Seas with these dyes that have only nutrient rich effluent.</p>
             <a href="#!" class='true-btn'>
               <span class='pull-left'>Explore</span>
               <span class='pull-right'><i class="material-icons">&#xE5C8;</i></span>
@@ -79,7 +82,9 @@
         <div class="strip yarn">
           <div class='overlay'>
             <h1>Yarns</h1>
-            <p>Truetone is the leading online shop of herbal dyed organic clothes for men and women. We have a wide range of natural clothing from underwear to fabrics and towels and more. Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</p>
+            <p>Yarn is the essence of all fabrics. We dye our yarns in the hues of nature to give you the possibility
+of weaving nature itself into your fabrics. Bring something new to the table with herbal dyed yarns and
+create a yarn dyed fabric that is completely chemical-free.</p>
             <a href="#!" class='true-btn'>
               <span class='pull-left'>Explore</span>
               <span class='pull-right'><i class="material-icons">&#xE5C8;</i></span>
@@ -90,7 +95,9 @@
         <div class="strip fabric">
           <div class='overlay'>
             <h1>Fabrics</h1>
-            <p>Truetone is the leading online shop of herbal dyed organic clothes for men and women. We have a wide range of natural clothing from underwear to fabrics and towels and more. Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</p>
+            <p>Made with certified organic cotton and dyed with herbs, our fabrics are everything that an
+environmentally conscious human in the fashion industry can want. Explore our wide range of fabrics
+and techniques to see how far we have come with the technique of Herbal Dyeing.</p>
             <a href="#!" class='true-btn'>
               <span class='pull-left'>Explore</span>
               <span class='pull-right'><i class="material-icons">&#xE5C8;</i></span>
@@ -104,14 +111,19 @@
         <div class='container'>
           <h1>Who We Are</h1>
           <hr/>
-          <h3>Truetone is the leading online shop of herbal dyed organic clothes for men and women. We have a wide range of natural clothing from underwear to fabrics and towels and more. Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</h3>
+          <h3>Truetone Inc is the industrial expert on Herbal Dyes, a technology that we revived from the
+depth of ancient history and from the roots of our soil, to bring you dyes that are beautiful and natural
+in every way. Our dyes are the answer to the damage done to our Earth and our health by petroleum
+based dyes.</h3>
         </div>
       </section>
       <section class='ourprocess'>
         <div class='container'>
           <h1>Our Process</h1>
           <hr />
-          <h3>Truetone is the leading online shop of herbal dyed organic clothes for men and women. We have a wide range of natural clothing from underwear to fabrics and towels and more. Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</h3>
+          <h3>Truetone is the leading online shop of herbal dyed organic clothes for men and women.
+             We have a wide range of natural clothing from underwear to fabrics and towels and more.
+             Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</h3>
           <a href='#!' class='true-btn'>
             <span class='pull-left'>Learn more</span>
             <span class='pull-right'><i class="material-icons">&#xE5C8;</i></span>
@@ -133,9 +145,9 @@
               <div class='desc-wrapper text-left'>
                 <h2>Apply for Certificate</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Join us in our endeavor to change the face of industrial dyes. Let your consumers
+  know that you subscribe to the natural way of dyeing. Using our dyes, yarns or fabrics in your design will
+  make you eligible to tag your product with the Truetone Stamp. Be proud of you make!
                 </p>
                 <a href='#!' class='true-btn'>
                   <span class='pull-left'>Apply now</span>
