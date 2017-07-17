@@ -8429,10 +8429,10 @@ p {
 
 .headroom {
   will-change: transform;
-  -webkit-transition: -webkit-transform 200ms linear;
-  transition: -webkit-transform 200ms linear;
-  transition: transform 200ms linear;
-  transition: transform 200ms linear, -webkit-transform 200ms linear;
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
 .headroom--pinned {
@@ -8626,11 +8626,7 @@ p {
   background: #f8f8f8;
   padding: 0;
   text-align: center;
-  line-height: calc(100vh - 228px);
-}
-
-.page-content.homepage section.landing img {
-  max-width: 100%;
+  height: calc(100vh - 228px);
 }
 
 .page-content.homepage section.featuring {
