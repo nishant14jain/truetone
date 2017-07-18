@@ -8496,7 +8496,7 @@ p {
 }
 
 .headroom--top svg {
-  height: 150px;
+  height: 77px;
   -webkit-transition: height 250ms ease-in-out;
   transition: height 250ms ease-in-out;
 }
@@ -8857,5 +8857,26 @@ p {
 
 .page-content.homePage section.faq .panel-default > .panel-heading {
   padding: 0px;
+}
+
+.page-content.dyesPage .page-hero {
+  padding: 45px 0px;
+  background: #C68889;
+  min-height: 500px;
+  text-align: center;
+}
+
+.page-content.fabricsPage .page-hero {
+  padding: 45px 0px;
+  background: #9E95AE;
+  min-height: 500px;
+  text-align: center;
+}
+
+.page-content.yarnsPage .page-hero {
+  padding: 45px 0px;
+  background: #A7A998;
+  min-height: 500px;
+  text-align: center;
 }
 

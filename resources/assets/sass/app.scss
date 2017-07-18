@@ -114,7 +114,7 @@ p{
 .headroom--top{
 	background:transparent;
 	svg{
-		height:150px;
+		height:77px;
 		transition:height 250ms ease-in-out;
 	}
 	svg path{
@@ -235,184 +235,14 @@ p{
 }
 
 
-//Homepage ----------------------------------------------------
+// Pages common
 .page-content{
 	section{
 		padding:80px 0px;
 	}
 }
-.page-content.homePage{
-	section.landing{
-		background:#f8f8f8;
-		padding:0;
-		text-align:center;
-		// height:calc(100vh - 228px);
-		.fullscreen-bg{
-			height:90vh;
-			min-height:500px;
-			background:black;
-			overflow:hidden;
-			h1{
-				position: absolute;
-				width: 100%;
-				top: 42%;
-				transform: translateY(-50%);
-				font-size: 65px;
-				color: white;
-				z-index: 0;
-				font-weight:bold;
-			}
-			video{
-				width:100%;
-				transform:scale(1.2);
-				opacity:0.5;
-			}
-		}
 
-	}
-	section.featuring{
-		padding:0;
-		background:#111;
-		.strip{
-			position:relative;
-			float:left;
-			width:33.33%;
-			// box-shadow:inset 0px 0px 90px -15px black;
-			transition:all 0.4s ease-in-out;
-			.overlay{
-				position:relative;
-				padding: 45px;
-			}
-			h1{
-				color:white;
-				margin: 15px 0px;
-				padding: 15px 0px;
-				border-bottom: 10px solid;
-				display: inline-block;
-				text-align: center;
-				font-weight: 600;
-			}
-			p{
-				color: rgba(255, 255, 255, 0.9);
-				font-size: 18px;
-				/* font-weight: 600; */
-				letter-spacing: 1px;
-				line-height: 35px;
-			}
-		}
-		.strip:hover{
-			// background-position-y:-50px !important;
-			// filter:grayscale(0%);
-		}
-
-		.strip.yarn{
-			background:$p-color1;
-			background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
-			.true-btn{
-				color:$p-color1;
-			}
-		}
-		.strip.dye{
-			background:$p-color2;
-			background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
-			.true-btn{
-				color:$p-color2;
-			}
-		}
-		.strip.fabric{
-			background:$p-color3;
-			background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
-			.true-btn{
-				color:$p-color3;
-			}
-		}
-	}
-	.featuring:hover{
-		.strip:not(:hover){
-			filter:grayscale(100%);
-			opacity:0.4;
-		}
-	}
-	section.whoweare{
-		text-align:center;
-		padding:80px 0px;
-		h1{
-			color:$gray1;
-			font-weight: 800;
-		}
-		h3{
-			color:$gray3;
-			line-height: 40px;
-			font-style: italic;
-		}
-	}
-	section.ourprocess{
-		.true-btn{
-			color:$p-color2;
-		}
-		@extend section.whoweare;
-		background:$p-color2;
-		h1,h3{
-			color:white;
-		}
-		h3{
-			opacity:0.7;
-		}
-	}
-	section.certified{
-		.true-btn{
-			background:$s-color2;
-			color:white;
-		}
-		@extend section.whoweare;
-		h2{
-			color:$s-color2;
-		}
-	}
-	section.infographic, section.faq, section.blogNews, section.testimonials{
-		@extend section.whoweare;
-	}
-	section.infographic{
-		@extend section.ourprocess;
-		background:$p-color1;
-	}
-	section.testimonials{
-		@extend section.ourprocess;
-		background:$p-color3;
-	}
-	section.faq{
-		.pmd-card{
-			margin:45px 0px;
-		}
-		.pmd-tabs .nav-tabs.nav-justified > li > a{
-			color:$gray1;
-			font-size:20px;
-			border-bottom: 1px solid $gray3;
-		}
-		.pmd-tabs-bg{
-			color:$gray1;
-		}
-		.pmd-tabs-bg{
-			background:white;
-		}
-		.pmd-tabs .pmd-tab-active-bar{
-			background:$s-color2;
-			height:4px;
-			z-index:1;
-		}
-		.tab-content{
-			text-align:left;
-		}
-		.tab-content > .tab-pane{
-			height:400px;
-		}
-		.panel-title > a{
-			display:block;
-			padding:15px;
-			font-weight:bold;
-		}
-		.panel-default > .panel-heading{
-			padding:0px;
-		}
-	}
-}
+@import "home";
+@import "dyes";
+@import "fabrics";
+@import "yarns";
