@@ -12,5 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/dyes', function () {
+    return view('dyes');
+});
+Route::get('/fabrics', function () {
+    return view('fabrics');
+});
+Route::get('/yarns', function () {
+    return view('yarns');
 });
