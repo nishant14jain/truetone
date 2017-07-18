@@ -8442,7 +8442,7 @@ p {
   top: 0;
   left: 0;
   z-index: 10;
-  border-top: 5px solid #9E95AE;
+  border-top: 5px solid #8D3C3E;
   line-height: 75px;
   padding: 0px 25px;
 }
@@ -8638,20 +8638,20 @@ p {
   padding: 80px 0px;
 }
 
-.page-content.homepage section.landing {
+.page-content.homePage section.landing {
   background: #f8f8f8;
   padding: 0;
   text-align: center;
 }
 
-.page-content.homepage section.landing .fullscreen-bg {
+.page-content.homePage section.landing .fullscreen-bg {
   height: 90vh;
   min-height: 500px;
   background: black;
   overflow: hidden;
 }
 
-.page-content.homepage section.landing .fullscreen-bg h1 {
+.page-content.homePage section.landing .fullscreen-bg h1 {
   position: absolute;
   width: 100%;
   top: 42%;
@@ -8663,19 +8663,19 @@ p {
   font-weight: bold;
 }
 
-.page-content.homepage section.landing .fullscreen-bg video {
+.page-content.homePage section.landing .fullscreen-bg video {
   width: 100%;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   opacity: 0.5;
 }
 
-.page-content.homepage section.featuring {
+.page-content.homePage section.featuring {
   padding: 0;
   background: #111;
 }
 
-.page-content.homepage section.featuring .strip {
+.page-content.homePage section.featuring .strip {
   position: relative;
   float: left;
   width: 33.33%;
@@ -8683,12 +8683,12 @@ p {
   transition: all 0.4s ease-in-out;
 }
 
-.page-content.homepage section.featuring .strip .overlay {
+.page-content.homePage section.featuring .strip .overlay {
   position: relative;
   padding: 45px;
 }
 
-.page-content.homepage section.featuring .strip h1 {
+.page-content.homePage section.featuring .strip h1 {
   color: white;
   margin: 15px 0px;
   padding: 15px 0px;
@@ -8698,7 +8698,7 @@ p {
   font-weight: 600;
 }
 
-.page-content.homepage section.featuring .strip p {
+.page-content.homePage section.featuring .strip p {
   color: rgba(255, 255, 255, 0.9);
   font-size: 18px;
   /* font-weight: 600; */
@@ -8706,156 +8706,156 @@ p {
   line-height: 35px;
 }
 
-.page-content.homepage section.featuring .strip.yarn {
+.page-content.homePage section.featuring .strip.yarn {
   background: #A7A998;
   background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
 }
 
-.page-content.homepage section.featuring .strip.yarn .true-btn {
+.page-content.homePage section.featuring .strip.yarn .true-btn {
   color: #A7A998;
 }
 
-.page-content.homepage section.featuring .strip.dye {
+.page-content.homePage section.featuring .strip.dye {
   background: #C68889;
   background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
 }
 
-.page-content.homepage section.featuring .strip.dye .true-btn {
+.page-content.homePage section.featuring .strip.dye .true-btn {
   color: #C68889;
 }
 
-.page-content.homepage section.featuring .strip.fabric {
+.page-content.homePage section.featuring .strip.fabric {
   background: #9E95AE;
   background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
 }
 
-.page-content.homepage section.featuring .strip.fabric .true-btn {
+.page-content.homePage section.featuring .strip.fabric .true-btn {
   color: #9E95AE;
 }
 
-.page-content.homepage .featuring:hover .strip:not(:hover) {
+.page-content.homePage .featuring:hover .strip:not(:hover) {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
   opacity: 0.4;
 }
 
-.page-content.homepage section.whoweare,
-.page-content.homepage section.ourprocess,
-.page-content.homepage section.infographic,
-.page-content.homepage section.testimonials,
-.page-content.homepage section.certified,
-.page-content.homepage section.faq,
-.page-content.homepage section.blogNews {
+.page-content.homePage section.whoweare,
+.page-content.homePage section.ourprocess,
+.page-content.homePage section.infographic,
+.page-content.homePage section.testimonials,
+.page-content.homePage section.certified,
+.page-content.homePage section.faq,
+.page-content.homePage section.blogNews {
   text-align: center;
   padding: 80px 0px;
 }
 
-.page-content.homepage section.whoweare h1,
-.page-content.homepage section.ourprocess h1,
-.page-content.homepage section.infographic h1,
-.page-content.homepage section.testimonials h1,
-.page-content.homepage section.certified h1,
-.page-content.homepage section.faq h1,
-.page-content.homepage section.blogNews h1 {
+.page-content.homePage section.whoweare h1,
+.page-content.homePage section.ourprocess h1,
+.page-content.homePage section.infographic h1,
+.page-content.homePage section.testimonials h1,
+.page-content.homePage section.certified h1,
+.page-content.homePage section.faq h1,
+.page-content.homePage section.blogNews h1 {
   color: #373737;
   font-weight: 800;
 }
 
-.page-content.homepage section.whoweare h3,
-.page-content.homepage section.ourprocess h3,
-.page-content.homepage section.infographic h3,
-.page-content.homepage section.testimonials h3,
-.page-content.homepage section.certified h3,
-.page-content.homepage section.faq h3,
-.page-content.homepage section.blogNews h3 {
+.page-content.homePage section.whoweare h3,
+.page-content.homePage section.ourprocess h3,
+.page-content.homePage section.infographic h3,
+.page-content.homePage section.testimonials h3,
+.page-content.homePage section.certified h3,
+.page-content.homePage section.faq h3,
+.page-content.homePage section.blogNews h3 {
   color: #747474;
   line-height: 40px;
   font-style: italic;
 }
 
-.page-content.homepage section.ourprocess,
-.page-content.homepage section.infographic,
-.page-content.homepage section.testimonials {
+.page-content.homePage section.ourprocess,
+.page-content.homePage section.infographic,
+.page-content.homePage section.testimonials {
   background: #C68889;
 }
 
-.page-content.homepage section.ourprocess .true-btn,
-.page-content.homepage section.infographic .true-btn,
-.page-content.homepage section.testimonials .true-btn {
+.page-content.homePage section.ourprocess .true-btn,
+.page-content.homePage section.infographic .true-btn,
+.page-content.homePage section.testimonials .true-btn {
   color: #C68889;
 }
 
-.page-content.homepage section.ourprocess h1,
-.page-content.homepage section.infographic h1,
-.page-content.homepage section.testimonials h1,
-.page-content.homepage section.ourprocess h3,
-.page-content.homepage section.infographic h3,
-.page-content.homepage section.testimonials h3 {
+.page-content.homePage section.ourprocess h1,
+.page-content.homePage section.infographic h1,
+.page-content.homePage section.testimonials h1,
+.page-content.homePage section.ourprocess h3,
+.page-content.homePage section.infographic h3,
+.page-content.homePage section.testimonials h3 {
   color: white;
 }
 
-.page-content.homepage section.ourprocess h3,
-.page-content.homepage section.infographic h3,
-.page-content.homepage section.testimonials h3 {
+.page-content.homePage section.ourprocess h3,
+.page-content.homePage section.infographic h3,
+.page-content.homePage section.testimonials h3 {
   opacity: 0.7;
 }
 
-.page-content.homepage section.certified .true-btn {
+.page-content.homePage section.certified .true-btn {
   background: #8D3C3E;
   color: white;
 }
 
-.page-content.homepage section.certified h2 {
+.page-content.homePage section.certified h2 {
   color: #8D3C3E;
 }
 
-.page-content.homepage section.infographic {
+.page-content.homePage section.infographic {
   background: #A7A998;
 }
 
-.page-content.homepage section.testimonials {
+.page-content.homePage section.testimonials {
   background: #9E95AE;
 }
 
-.page-content.homepage section.faq .pmd-card {
+.page-content.homePage section.faq .pmd-card {
   margin: 45px 0px;
 }
 
-.page-content.homepage section.faq .pmd-tabs .nav-tabs.nav-justified > li > a {
+.page-content.homePage section.faq .pmd-tabs .nav-tabs.nav-justified > li > a {
   color: #373737;
   font-size: 20px;
   border-bottom: 1px solid #747474;
 }
 
-.page-content.homepage section.faq .pmd-tabs-bg {
+.page-content.homePage section.faq .pmd-tabs-bg {
   color: #373737;
 }
 
-.page-content.homepage section.faq .pmd-tabs-bg {
+.page-content.homePage section.faq .pmd-tabs-bg {
   background: white;
 }
 
-.page-content.homepage section.faq .pmd-tabs .pmd-tab-active-bar {
+.page-content.homePage section.faq .pmd-tabs .pmd-tab-active-bar {
   background: #8D3C3E;
   height: 4px;
   z-index: 1;
 }
 
-.page-content.homepage section.faq .tab-content {
+.page-content.homePage section.faq .tab-content {
   text-align: left;
 }
 
-.page-content.homepage section.faq .tab-content > .tab-pane {
+.page-content.homePage section.faq .tab-content > .tab-pane {
   height: 400px;
 }
 
-.page-content.homepage section.faq .panel-title > a {
+.page-content.homePage section.faq .panel-title > a {
   display: block;
   padding: 15px;
   font-weight: bold;
 }
 
-.page-content.homepage section.faq .panel-default > .panel-heading {
+.page-content.homePage section.faq .panel-default > .panel-heading {
   padding: 0px;
 }
 
