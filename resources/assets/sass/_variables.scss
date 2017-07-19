@@ -7,6 +7,9 @@ $limitWidth: 1400px;
 $headnav-line-height:75px;
 $headnav-bg: rgba(255,255,255,0.9);
 
+//footer
+$footerHeight:75px;
+
 // Borders
 $laravel-border-color: darken($body-bg, 10%);
 $list-group-border: $laravel-border-color;
@@ -38,6 +41,28 @@ $gray2:#616161;
 $gray3:#747474;
 $gray4:#9b9b9b;
 $gray5:#CCCCCC;
+
+// shade cards for dyes
+
+
+$dye-shade1:#F0EBAF;
+$dye-shade2:#FFD400;
+$dye-shade3:#F8DD29;
+$dye-shade4:#ACDD71;
+$dye-shade5:#E78A88;
+$dye-shade6:#E9CEE2;
+$dye-shade7:#FFBC86;
+$dye-shade8:#E3C567;
+$dye-shade9:#FF7800;
+$dye-shade10:#D65400;
+$dye-shade11:#994723;
+$dye-shade12:#E60407;
+$dye-shade13:#D4CDB3;
+$dye-shade14:#766941;
+$dye-shade15:#775144;
+$dye-shade16:#5F8CCC;
+$dye-shade17:#004278;
+$dye-shade18:#2D2E33;
 
 // Typography
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";

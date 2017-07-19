@@ -18,18 +18,20 @@
 			<div class='pull-left'>
 				<ul class='headnav-links'>
 					<li>
-						<a href='#!'>Dyes</a>
+						<a href='{{ url('dyes') }}'>Dyes</a>
 					</li>
 					<li>
-						<a href='#!'>Yarns</a>
+						<a href='{{ url('yarns') }}'>Yarns</a>
 					</li>
 					<li>
-						<a href='#!'>Fabrics</a>
+						<a href='{{ url('fabrics') }}'>Fabrics</a>
 					</li>
 				</ul>
 			</div>
 			<div class='logo'>
-				<img class='svg' src='{{asset('images/logo.svg')}}'>
+				<a href='{{ url('/') }}'>
+					<img class='svg' src='{{asset('images/logo.svg')}}'>
+				</a>
 			</div>
 			<div class='pull-right'>
 				<ul class='headnav-links'>

@@ -8408,8 +8408,24 @@ body {
   height: 100%;
 }
 
+.pos-rel {
+  position: relative;
+}
+
+.pos-abs {
+  position: absolute;
+}
+
+.centerXY {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 h1 {
-  font-size: 48px;
+  font-weight: bold;
+  color: #373737;
   margin: 25px 0px;
 }
 
@@ -8517,6 +8533,13 @@ p {
 
 .headroom--not-top svg {
   height: 77px;
+}
+
+footer {
+  padding: 25px;
+  background: #8D3C3E;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .footer {
@@ -8632,6 +8655,10 @@ p {
 .footer .social-wrapper .social-btns .btn .fa {
   font-size: 38px;
   vertical-align: middle;
+}
+
+.page-content {
+  min-height: calc(100vh - 75px);
 }
 
 .page-content section {
@@ -8845,10 +8872,6 @@ p {
   text-align: left;
 }
 
-.page-content.homePage section.faq .tab-content > .tab-pane {
-  height: 400px;
-}
-
 .page-content.homePage section.faq .panel-title > a {
   display: block;
   padding: 15px;
@@ -8862,8 +8885,187 @@ p {
 .page-content.dyesPage .page-hero {
   padding: 45px 0px;
   background: #C68889;
+  background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
   min-height: 500px;
   text-align: center;
+}
+
+.page-content.dyesPage .page-hero h1.quote {
+  font-weight: bold;
+  color: white;
+}
+
+.page-content.dyesPage section.introduction .creative-wrapper {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: #eee;
+}
+
+.page-content.dyesPage section.introduction .desc-wrapper h2 {
+  font-weight: bold;
+}
+
+.page-content.dyesPage section.introduction .desc-wrapper .true-btn {
+  background: #C68889;
+  color: white;
+}
+
+.page-content.dyesPage section.description-tabs {
+  background: #eee;
+}
+
+.page-content.dyesPage section.description-tabs .pmd-card {
+  margin: 45px 0px;
+  background: white;
+}
+
+.page-content.dyesPage section.description-tabs .pmd-tabs .nav-tabs.nav-justified > li {
+  border: 1px solid #9b9b9b;
+  border-right: 0;
+}
+
+.page-content.dyesPage section.description-tabs .pmd-tabs .nav-tabs.nav-justified > li:last-child {
+  border-right: 1px solid #9b9b9b;
+}
+
+.page-content.dyesPage section.description-tabs .pmd-tabs .nav-tabs.nav-justified > li > a {
+  color: #373737;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.page-content.dyesPage section.description-tabs .pmd-tabs-bg {
+  color: #373737;
+}
+
+.page-content.dyesPage section.description-tabs .pmd-tabs-bg {
+  background: white;
+}
+
+.page-content.dyesPage section.description-tabs .pmd-tabs .pmd-tab-active-bar {
+  background: #C68889;
+  height: 4px;
+  z-index: 1;
+}
+
+.page-content.dyesPage section.description-tabs .pmd-card-body {
+  border: 1px solid #9b9b9b;
+  border-top: 0;
+}
+
+.page-content.dyesPage section.description-tabs .tab-content {
+  text-align: left;
+}
+
+.page-content.dyesPage section.description-tabs .tab-content > .tab-pane {
+  padding: 25px;
+}
+
+.page-content.dyesPage section.description-tabs .panel-title > a {
+  display: block;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.page-content.dyesPage section.description-tabs .panel-default > .panel-heading {
+  padding: 0px;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper {
+  margin: 45px 0px;
+  font-size: 0;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade-card {
+  display: inline-block;
+  width: calc(100%/18 - 10px);
+  min-width: 50px;
+  height: 80px;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.20s ease-in;
+  transition: all 0.20s ease-in;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade-card:hover {
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 7px 20px -6px;
+          box-shadow: 0px 7px 20px -6px;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade1 {
+  background: #F0EBAF;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade2 {
+  background: #FFD400;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade3 {
+  background: #F8DD29;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade4 {
+  background: #ACDD71;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade5 {
+  background: #E78A88;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade6 {
+  background: #E9CEE2;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade7 {
+  background: #FFBC86;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade8 {
+  background: #E3C567;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade9 {
+  background: #FF7800;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade10 {
+  background: #D65400;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade11 {
+  background: #994723;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade12 {
+  background: #E60407;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade13 {
+  background: #D4CDB3;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade14 {
+  background: #766941;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade15 {
+  background: #775144;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade16 {
+  background: #5F8CCC;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade17 {
+  background: #004278;
+}
+
+.page-content.dyesPage section.shadeCard .card-wrapper .shade18 {
+  background: #2D2E33;
 }
 
 .page-content.fabricsPage .page-hero {

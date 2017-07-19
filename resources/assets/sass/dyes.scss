@@ -3,7 +3,117 @@
 	.page-hero{
 		padding:45px 0px;
 		background:$p-color2;
+		background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
 		min-height:500px;
 		text-align:center;
+		h1.quote{
+			font-weight: bold;
+			color: white;
+		}
+	}
+	section.introduction{
+		.creative-wrapper{
+			height:300px;
+			width:300px;
+			border-radius:50%;
+			background:#eee;
+		}
+		.desc-wrapper{
+			h2{
+				font-weight:bold;
+			}
+			.true-btn{
+				background:$p-color2;
+				color:white;
+			}
+		}
+	}
+	section.description-tabs{
+		background:#eee;
+		.pmd-card{
+			margin:45px 0px;
+			background:white;
+		}
+		.pmd-tabs .nav-tabs.nav-justified > li{
+			border: 1px solid $gray4;
+			border-right:0;
+		}
+		.pmd-tabs .nav-tabs.nav-justified > li:last-child{
+			border-right:1px solid $gray4;
+		}
+		.pmd-tabs .nav-tabs.nav-justified > li > a{
+			color:$gray1;
+			font-size:20px;
+			text-transform: capitalize;
+		}
+		.pmd-tabs-bg{
+			color:$gray1;
+		}
+		.pmd-tabs-bg{
+			background:white;
+		}
+		.pmd-tabs .pmd-tab-active-bar{
+			background:$p-color2;
+			height:4px;
+			z-index:1;
+		}
+		.pmd-card-body{
+			border:1px solid $gray4;
+			border-top:0;
+		}
+		.tab-content{
+			text-align:left;
+		}
+		.tab-content > .tab-pane{
+			// height:400px;
+			padding:25px;
+		}
+		.panel-title > a{
+			display:block;
+			padding:15px;
+			font-weight:bold;
+		}
+		.panel-default > .panel-heading{
+			padding:0px;
+		}
+	}
+
+	section.shadeCard{
+		.card-wrapper{
+			margin:45px 0px;
+			font-size:0;
+			.shade-card{
+				display:inline-block;
+				width: calc(100%/18 - 10px);
+				min-width:50px;
+				height:80px;
+				margin:5px;
+				cursor:pointer;
+				transition:all 0.20s ease-in;
+			}
+			.shade-card:hover{
+				border: 2px solid rgba(0,0,0,0.4);
+				box-shadow: 0px 7px 20px -6px;
+				transform:scale(1.2);
+			}
+			.shade1{background:$dye-shade1}
+			.shade2{background:$dye-shade2}
+			.shade3{background:$dye-shade3}
+			.shade4{background:$dye-shade4}
+			.shade5{background:$dye-shade5}
+			.shade6{background:$dye-shade6}
+			.shade7{background:$dye-shade7}
+			.shade8{background:$dye-shade8}
+			.shade9{background:$dye-shade9}
+			.shade10{background:$dye-shade10}
+			.shade11{background:$dye-shade11}
+			.shade12{background:$dye-shade12}
+			.shade13{background:$dye-shade13}
+			.shade14{background:$dye-shade14}
+			.shade15{background:$dye-shade15}
+			.shade16{background:$dye-shade16}
+			.shade17{background:$dye-shade17}
+			.shade18{background:$dye-shade18}
+		}
 	}
 }
