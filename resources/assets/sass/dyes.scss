@@ -3,7 +3,7 @@
 	.page-hero{
 		padding:45px 0px;
 		background:$p-color2;
-		background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
+		// background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
 		min-height:500px;
 		text-align:center;
 		h1.quote{
@@ -35,11 +35,10 @@
 			background:white;
 		}
 		.pmd-tabs .nav-tabs.nav-justified > li{
-			border: 1px solid $gray4;
-			border-right:0;
+			border-bottom: 4px solid $gray6;
+			vertical-align:middle;
 		}
 		.pmd-tabs .nav-tabs.nav-justified > li:last-child{
-			border-right:1px solid $gray4;
 		}
 		.pmd-tabs .nav-tabs.nav-justified > li > a{
 			color:$gray1;
@@ -58,7 +57,6 @@
 			z-index:1;
 		}
 		.pmd-card-body{
-			border:1px solid $gray4;
 			border-top:0;
 		}
 		.tab-content{
@@ -79,6 +77,24 @@
 	}
 
 	section.shadeCard{
+		.shade1{background:$dye-shade1}
+		.shade2{background:$dye-shade2}
+		.shade3{background:$dye-shade3}
+		.shade4{background:$dye-shade4}
+		.shade5{background:$dye-shade5}
+		.shade6{background:$dye-shade6}
+		.shade7{background:$dye-shade7}
+		.shade8{background:$dye-shade8}
+		.shade9{background:$dye-shade9}
+		.shade10{background:$dye-shade10}
+		.shade11{background:$dye-shade11}
+		.shade12{background:$dye-shade12}
+		.shade13{background:$dye-shade13}
+		.shade14{background:$dye-shade14}
+		.shade15{background:$dye-shade15}
+		.shade16{background:$dye-shade16}
+		.shade17{background:$dye-shade17}
+		.shade18{background:$dye-shade18}
 		.card-wrapper{
 			margin:45px 0px;
 			font-size:0;
@@ -89,31 +105,49 @@
 				height:80px;
 				margin:5px;
 				cursor:pointer;
-				transition:all 0.20s ease-in;
+				transition:transform 0.20s ease-in-out;
 			}
-			.shade-card:hover{
-				border: 2px solid rgba(0,0,0,0.4);
+			.shade-card:hover,.shade-card.active{
 				box-shadow: 0px 7px 20px -6px;
-				transform:scale(1.2);
+				transform:scale(1.35);
 			}
-			.shade1{background:$dye-shade1}
-			.shade2{background:$dye-shade2}
-			.shade3{background:$dye-shade3}
-			.shade4{background:$dye-shade4}
-			.shade5{background:$dye-shade5}
-			.shade6{background:$dye-shade6}
-			.shade7{background:$dye-shade7}
-			.shade8{background:$dye-shade8}
-			.shade9{background:$dye-shade9}
-			.shade10{background:$dye-shade10}
-			.shade11{background:$dye-shade11}
-			.shade12{background:$dye-shade12}
-			.shade13{background:$dye-shade13}
-			.shade14{background:$dye-shade14}
-			.shade15{background:$dye-shade15}
-			.shade16{background:$dye-shade16}
-			.shade17{background:$dye-shade17}
-			.shade18{background:$dye-shade18}
+			.shade-card.active{
+				border: 2px solid rgba(0,0,0,0.4);
+			}
+		}
+		.herb-wrapper{
+			img{
+				max-width:100%;
+			}
+		}
+		.desc-wrapper{
+			background: #eee;
+			padding: 25px;
+			.shade-info{
+				color: rgba(255,255,255,0.9);
+				font-size: 18px;
+				letter-spacing: 1px;
+				padding:15px 25px;
+				margin: 15px -35px;
+				box-shadow: 0px 7px 25px -12px black;
+				span{
+					display:inline-block;
+					vertical-align:middle;
+					padding:5px 10px;
+				}
+				.shadeName{
+					font-size:22px;
+				}
+				.shadeNo{
+					background:rgba(0,0,0,0.2);
+				}
+			}
+		}
+		.shade-content{
+			display:none;
+		}
+		.shade-content.active{
+			display:block;
 		}
 	}
 }

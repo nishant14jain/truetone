@@ -772,6 +772,14 @@ $(document).ready(function () {
 		// initialise
 		headroom.init();
 
+		$('.shade-card').click(function () {
+				$('.shade-card').removeClass('active');
+				$(this).addClass('active');
+				var tar = $(this).attr('data-toggle');
+				$('.shade-content').hide(0);
+				$('.' + tar).show(0).addClass('active');
+		});
+
 		//replace img with svg
 		jQuery('img.svg').each(function () {
 				var $img = jQuery(this);
@@ -807,20 +815,6 @@ $(document).ready(function () {
 				}, 'xml');
 		});
 });
-
-// window.Vue = require('vue');
-
-/**
-* Next, we will create a fresh Vue application instance and attach it to
-* the page. Then, you may begin adding components to this application
-* or customize the JavaScript scaffolding to fit your unique needs.
-*/
-
-// Vue.component('example', require('./components/Example.vue'));
-
-// const app = new Vue({
-// el: '#app'
-// });
 
 /***/ }),
 /* 9 */

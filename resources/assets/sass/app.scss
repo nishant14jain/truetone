@@ -48,8 +48,9 @@ h1{
 	margin:25px 0px;
 }
 p{
-	line-height:30px;
 	font-size:18px;
+	line-height: 35px;
+	color: #777;
 }
 .limitWidth{
 	// max-width:$limitWidth;
@@ -76,7 +77,7 @@ p{
 	top: 0;
 	left: 0;
 	z-index:10;
-	border-top:5px solid $s-color2;
+	// border-top:5px solid $s-color2;
 	line-height:$headnav-line-height;
 	padding:0px 25px;
 	.limitWidth{
@@ -115,13 +116,13 @@ p{
 }
 .headroom {
 	will-change: background;
-	transition: background 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
 }
 .headroom--pinned {
-	// transform: translateY(0%);
+	transform: translateY(0%);
 }
 .headroom--unpinned {
-	// transform: translateY(-100%);
+	transform: translateY(-100%);
 }
 .headroom--top{
 	background:transparent;
@@ -150,9 +151,8 @@ p{
 //Footer ----------------------------------------------------
 footer{
 	padding:25px;
-	background:$s-color2;
+	background:$gray6;
 	text-align:center;
-	color:rgba(255,255,255,0.8);
 }
 .footer{
 	display:none;

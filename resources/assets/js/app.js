@@ -8,7 +8,6 @@
 require('./bootstrap');
 require('./tab-scrollable.js');
 
-
 $(document).ready( function() {
 	$('.pmd-tabs').pmdTab();
 	// grab an element
@@ -17,6 +16,14 @@ $(document).ready( function() {
 	var headroom  = new Headroom(myElement);
 	// initialise
 	headroom.init();
+
+	$('.shade-card').click(function(){
+		$('.shade-card').removeClass('active');
+		$(this).addClass('active');
+		var tar = $(this).attr('data-toggle');
+		$('.shade-content').hide(0);
+		$('.'+tar).show(0).addClass('active');
+	});
 
 	//replace img with svg
 	jQuery('img.svg').each(function () {
@@ -55,17 +62,3 @@ $(document).ready( function() {
 	 });
 
 });
-
-// window.Vue = require('vue');
-
-/**
-* Next, we will create a fresh Vue application instance and attach it to
-* the page. Then, you may begin adding components to this application
-* or customize the JavaScript scaffolding to fit your unique needs.
-*/
-
-// Vue.component('example', require('./components/Example.vue'));
-
-// const app = new Vue({
-// el: '#app'
-// });
