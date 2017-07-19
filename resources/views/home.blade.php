@@ -60,6 +60,7 @@
 			<h3>Truetone is the leading online shop of herbal dyed organic clothes for men and women.
 				We have a wide range of natural clothing from underwear to fabrics and towels and more.
 				Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</h3>
+				<!-- <img width=100% src='{{asset('images/finallayout.png')}}' /> -->
 				<a href='#!' class='true-btn'>
 					<span class='pull-left'>Learn more</span>
 					<span class='pull-right'><i class="material-icons">&#xE5C8;</i></span>
