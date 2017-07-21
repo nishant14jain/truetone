@@ -8975,6 +8975,10 @@ footer {
   padding: 0px;
 }
 
+.page-content.dyesPage section.shadeCard {
+  background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
+}
+
 .page-content.dyesPage section.shadeCard .shade1 {
   background: #F0EBAF;
 }

@@ -77,6 +77,7 @@
 	}
 
 	section.shadeCard{
+		background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
 		.shade1{background:$dye-shade1}
 		.shade2{background:$dye-shade2}
 		.shade3{background:$dye-shade3}
@@ -105,7 +106,7 @@
 				height:80px;
 				margin:5px;
 				cursor:pointer;
-				transition:transform 0.20s ease-in-out;
+				transition:transform 0.20s ease-in-out;				
 			}
 			.shade-card:hover,.shade-card.active{
 				box-shadow: 0px 7px 20px -6px;
