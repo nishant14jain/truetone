@@ -8393,6 +8393,7 @@ button.close {
 hr {
   margin: 40px 0px;
   border-color: rgba(0, 0, 0, 0.1);
+  display: none;
 }
 
 body {
@@ -8683,7 +8684,8 @@ footer {
 .page-content.homePage section.landing .fullscreen-bg {
   height: 90vh;
   min-height: 500px;
-  background: black;
+  -webkit-box-shadow: inset 0px 0px 300px 80px black;
+          box-shadow: inset 0px 0px 300px 80px black;
   overflow: hidden;
 }
 
@@ -8694,7 +8696,7 @@ footer {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 65px;
-  color: white;
+  color: black;
   z-index: 0;
   font-weight: bold;
 }
@@ -8704,6 +8706,47 @@ footer {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
   opacity: 0.5;
+}
+
+.page-content.homePage section.dyes .creative-wrapper,
+.page-content.homePage section.yarns .creative-wrapper,
+.page-content.homePage section.fabrics .creative-wrapper {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.page-content.homePage section.dyes .desc-wrapper h2,
+.page-content.homePage section.yarns .desc-wrapper h2,
+.page-content.homePage section.fabrics .desc-wrapper h2 {
+  font-weight: bold;
+}
+
+.page-content.homePage section.dyes .desc-wrapper .true-btn,
+.page-content.homePage section.yarns .desc-wrapper .true-btn,
+.page-content.homePage section.fabrics .desc-wrapper .true-btn {
+  color: white;
+}
+
+.page-content.homePage section.dyes .true-btn {
+  background: #C68889;
+}
+
+.page-content.homePage section.dyes .creative-wrapper {
+  background: url(/images/dye.png?582f0017e721e5930a89d48f203d2163);
+  background-size: cover;
+}
+
+.page-content.homePage section.yarns {
+  background: #F3F3F3;
+}
+
+.page-content.homePage section.yarns .true-btn {
+  background: #A7A998;
+}
+
+.page-content.homePage section.fabrics .true-btn {
+  background: #9E95AE;
 }
 
 .page-content.homePage section.featuring {
@@ -8782,6 +8825,7 @@ footer {
 .page-content.homePage section.certified,
 .page-content.homePage section.faq,
 .page-content.homePage section.blogNews {
+  background: #F3F3F3;
   text-align: center;
   padding: 80px 0px;
 }
@@ -8826,7 +8870,10 @@ footer {
 .page-content.homePage section.testimonials h1,
 .page-content.homePage section.ourprocess h3,
 .page-content.homePage section.infographic h3,
-.page-content.homePage section.testimonials h3 {
+.page-content.homePage section.testimonials h3,
+.page-content.homePage section.ourprocess p,
+.page-content.homePage section.infographic p,
+.page-content.homePage section.testimonials p {
   color: white;
 }
 
@@ -8903,6 +8950,13 @@ footer {
   color: white;
 }
 
+.page-content.dyesPage .page-hero h1.quote small {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 15px;
+  display: block;
+  font-weight: 100;
+}
+
 .page-content.dyesPage section.introduction .creative-wrapper {
   height: 300px;
   width: 300px;
@@ -8975,8 +9029,9 @@ footer {
   padding: 0px;
 }
 
-.page-content.dyesPage section.shadeCard {
-  background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
+.page-content.dyesPage section.history,
+.page-content.dyesPage section.health-benefits {
+  background: #f3f3f3;
 }
 
 .page-content.dyesPage section.shadeCard .shade1 {
@@ -9057,6 +9112,7 @@ footer {
 }
 
 .page-content.dyesPage section.shadeCard .card-wrapper .shade-card {
+  background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
   display: inline-block;
   width: calc(100%/18 - 10px);
   min-width: 50px;
@@ -9092,6 +9148,7 @@ footer {
 
 .page-content.dyesPage section.shadeCard .desc-wrapper .shade-info {
   color: rgba(255, 255, 255, 0.9);
+  background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
   font-size: 18px;
   letter-spacing: 1px;
   padding: 15px 25px;

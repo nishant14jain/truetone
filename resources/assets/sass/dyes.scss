@@ -9,6 +9,12 @@
 		h1.quote{
 			font-weight: bold;
 			color: white;
+			small{
+				color: rgba(0,0,0,0.7);
+				margin: 15px;
+				display: block;
+				font-weight: 100;
+			}
 		}
 	}
 	section.introduction{
@@ -75,9 +81,10 @@
 			padding:0px;
 		}
 	}
-
+section.history,section.health-benefits{
+	background:#f3f3f3;
+}
 	section.shadeCard{
-		background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
 		.shade1{background:$dye-shade1}
 		.shade2{background:$dye-shade2}
 		.shade3{background:$dye-shade3}
@@ -100,13 +107,14 @@
 			margin:45px 0px;
 			font-size:0;
 			.shade-card{
+				background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
 				display:inline-block;
 				width: calc(100%/18 - 10px);
 				min-width:50px;
 				height:80px;
 				margin:5px;
 				cursor:pointer;
-				transition:transform 0.20s ease-in-out;				
+				transition:transform 0.20s ease-in-out;
 			}
 			.shade-card:hover,.shade-card.active{
 				box-shadow: 0px 7px 20px -6px;
@@ -126,6 +134,7 @@
 			padding: 25px;
 			.shade-info{
 				color: rgba(255,255,255,0.9);
+				background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
 				font-size: 18px;
 				letter-spacing: 1px;
 				padding:15px 25px;

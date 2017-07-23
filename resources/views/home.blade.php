@@ -10,7 +10,85 @@
 			</video>
 		</div>
 	</section>
-	<section class='featuring'>
+	<section class='whoweare'>
+		<div class='container'>
+			<h1>Who We Are</h1>
+			<hr/>
+			<p>Truetone Inc is the industrial expert on Herbal Dyes, a technology that we revived from the depth of ancient history and from the roots of our soil, to bring you dyes that are beautiful and natural in every way. Our dyes are the answer to the damage done to our Earth and our health by petroleum based dyes.</p>
+		</div>
+	</section>
+	<section class='dyes'>
+		<div class='container'>
+			<div class='row'>
+				<div class='col-md-6 col-lg-6 col-sm-12 col-xs-12'>
+					<div class='creative-wrapper center-block' style="background:url('images/dye.png');background-size:cover;">
+						<!-- <img src='{{asset('images/dye.png')}}' /> -->
+					</div>
+				</div>
+				<div class='col-md-6 col-lg-6 col-sm-12 col-xs-12'>
+					<div class='desc-wrapper text-left'>
+						<h1>Dyes</h1>
+						<p>
+							We offer all natural, herbal dyes that are completely eco-friendly and biodegradable. You can
+							purchase the dyes in powder or liquid form. Please get in touch with us to order our dyes. We can also
+							offer customization of colours catering to your requirements.
+						</p>
+						<a href="#!" class="true-btn">
+							<span class="pull-left">Order Now</span>
+							<span class="pull-right"><i class="material-icons"></i></span>
+							<div class="clearfix"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class='yarns'>
+		<div class='container'>
+			<div class='row'>
+				<div class='col-md-6 col-lg-6 col-sm-12 col-xs-12'>
+					<div class='desc-wrapper text-left'>
+						<h1>Yarns</h1>
+						<p>Yarn is the essence of all fabrics. We dye our yarns in the hues of nature to give you the possibility of weaving nature itself into your fabrics. Bring something new to the table with herbal dyed yarns and create a yarn dyed fabric that is completely chemical-free.</p>
+						<a href="#!" class="true-btn">
+							<span class="pull-left">Order Now</span>
+							<span class="pull-right"><i class="material-icons"></i></span>
+							<div class="clearfix"></div>
+						</a>
+					</div>
+				</div>
+				<div class='col-md-6 col-lg-6 col-sm-12 col-xs-12'>
+					<div class='creative-wrapper center-block' style="background:url('images/yarn.png');background-size:cover;">
+						<!-- <img src='{{asset('images/dye.png')}}' /> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class='fabrics'>
+		<div class='container'>
+			<div class='row'>
+				<div class='col-md-6 col-lg-6 col-sm-12 col-xs-12'>
+					<div class='creative-wrapper center-block' style="background:url('images/fabric.png');background-size:cover;">
+						<!-- <img src='{{asset('images/dye.png')}}' /> -->
+					</div>
+				</div>
+				<div class='col-md-6 col-lg-6 col-sm-12 col-xs-12'>
+					<div class='desc-wrapper text-left'>
+						<h1>Fabrics</h1>
+						<p>Made with certified organic cotton and dyed with herbs, our fabrics are everything that an environmentally conscious human in the fashion industry can want. Explore our wide range of fabrics and techniques to see how far we have come with the technique of Herbal Dyeing.</p>
+						<a href="#!" class="true-btn">
+							<span class="pull-left">Order Now</span>
+							<span class="pull-right"><i class="material-icons"></i></span>
+							<div class="clearfix"></div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class='featuring hidden'>
 		<div class="strip dye">
 			<div class='overlay'>
 				<h1>Dyes</h1>
@@ -46,26 +124,26 @@
 		</div>
 		<div class='clearfix'></div>
 	</section>
-	<section class='whoweare'>
-		<div class='container'>
-			<h1>Who We Are</h1>
-			<hr/>
-			<h3>Truetone Inc is the industrial expert on Herbal Dyes, a technology that we revived from the depth of ancient history and from the roots of our soil, to bring you dyes that are beautiful and natural in every way. Our dyes are the answer to the damage done to our Earth and our health by petroleum based dyes.</h3>
-		</div>
-	</section>
+
 	<section class='ourprocess'>
 		<div class='container'>
 			<h1>Our Process</h1>
 			<hr />
-			<h3>Truetone is the leading online shop of herbal dyed organic clothes for men and women.
+			<p>Truetone is the leading online shop of herbal dyed organic clothes for men and women.
 				We have a wide range of natural clothing from underwear to fabrics and towels and more.
-				Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</h3>
+				Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.</p>
 				<!-- <img width=100% src='{{asset('images/finallayout.png')}}' /> -->
 				<a href='#!' class='true-btn'>
 					<span class='pull-left'>Learn more</span>
 					<span class='pull-right'><i class="material-icons">&#xE5C8;</i></span>
 					<div class='clearfix'></div>
 				</a>
+			</div>
+		</section>
+		<section class='infographic'>
+			<div class='container'>
+				<h1>How Herbal Dyes are Created?</h1>
+				<img class='svg' src='{{asset('images/Infographic-02.svg')}}' />
 			</div>
 		</section>
 		<section class='certified'>
@@ -94,12 +172,8 @@
 				</div>
 			</div>
 		</section>
-		<section class='infographic'>
-			<div class='container'>
-				<h1>Infographic</h1>
-			</div>
-		</section>
-		<section class='blogNews'>
+
+		<section class='blogNews hidden'>
 			<div class='container'>
 				<h1>Blog & News</h1>
 			</div>
