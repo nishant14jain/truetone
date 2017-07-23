@@ -9179,6 +9179,51 @@ footer {
   display: block;
 }
 
+.page-content.dyesPage section.applications {
+  background: #A7A998;
+}
+
+.page-content.dyesPage section.applications .row {
+  margin-top: 45px;
+}
+
+.page-content.dyesPage section.applications h1 {
+  color: white;
+}
+
+.page-content.dyesPage section.applications svg,
+.page-content.dyesPage section.applications img {
+  max-width: 150px;
+}
+
+.page-content.dyesPage section.linkpages {
+  padding: 0;
+  text-align: center;
+}
+
+.page-content.dyesPage section.linkpages .faq h1 {
+  color: #A7A998;
+}
+
+.page-content.dyesPage section.linkpages .terms h1 {
+  color: #C68889;
+}
+
+.page-content.dyesPage section.linkpages .contact {
+  border-right: 1px solid #ddd;
+}
+
+.page-content.dyesPage section.linkpages .contact h1 {
+  color: #9E95AE;
+}
+
+.page-content.dyesPage section.linkpages .faq,
+.page-content.dyesPage section.linkpages .terms,
+.page-content.dyesPage section.linkpages .contact {
+  padding: 45px 10px;
+  border-left: 1px solid #ddd;
+}
+
 .page-content.fabricsPage .page-hero {
   padding: 45px 0px;
   background: #9E95AE;

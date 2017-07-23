@@ -747,8 +747,42 @@
 		</div>
 	</section>
 	<section class="applications">
-		<div class='container'>
-			
+		<div class='container text-center'>
+			<h1>Applications</h1>
+			<div class='row'>
+				<div class='col-md-3 col-lg-3 col-sm-3 col-xs-6'>
+					<img src='{{asset('images/dye/1.svg')}}' />
+				</div>
+				<div class='col-md-3 col-lg-3 col-sm-3 col-xs-6'>
+					<img src='{{asset('images/dye/2.svg')}}' />
+				</div>
+				<div class='col-md-3 col-lg-3 col-sm-3 col-xs-6'>
+					<img src='{{asset('images/dye/3.svg')}}' />
+				</div>
+				<div class='col-md-3 col-lg-3 col-sm-3 col-xs-6'>
+					<img src='{{asset('images/dye/4.svg')}}' />
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class='linkpages'>
+		<div class="container">
+			<div class='row'>
+				<div class='faq col-md-4 col-lg-4 col-sm-4 col-xs-4'>
+					<h1>FAQs</h1>
+					<!-- <a href="#!" class="true-btn">
+							<span class="pull-left"></span>
+							<span class="pull-right"><i class="material-icons"></i></span>
+							<div class="clearfix"></div>
+						</a> -->
+				</div>
+				<div class='terms col-md-4 col-lg-4 col-sm-4 col-xs-4'>
+					<h1>T & C</h1>
+				</div>
+				<div class='contact col-md-4 col-lg-4 col-sm-4 col-xs-4'>
+					<h1>Contact</h1>
+				</div>
+			</div>
 		</div>
 	</section>
 
