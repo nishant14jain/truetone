@@ -56,7 +56,28 @@
 	@yield('content')
 
 	<footer>
-		All rights Reserved.
+		<h3 class='followUs'>Follow Us</h3>
+		<div class="social">
+			<a href="#" class="social__button facebook"><i class="fa fa-facebook"></i></a>
+			<a href="#" class="social__button youtube"><i class="fa fa-youtube"></i></a>
+			<a href="#" class="social__button twitter"><i class="fa fa-twitter"></i></a>
+			<a href="#" class="social__button instagram"><i class="fa fa-instagram"></i></a>
+			<a href="#" class="social__button whatsapp"><i class="fa fa-whatsapp"></i></a>
+		</div>
+		<div class='foot-links'>
+			<div class='link'>Dyes</div>
+			<div class='link'>Yarns</div>
+			<div class='link'>Fabrics</div>
+			<div class='link'>About Us</div>
+			<div class='link'>Foundation</div>
+			<div class='link'>Contact</div>
+		</div>
+		<div class='logo-wrapper'>
+			<img class='svg' src='{{asset('images/logo.svg')}}'>
+		</div>
+		<p class='legal'>
+			© Copyright 2017 | Truetone Inc. | All Rights Reserved
+		</p>
 	</footer>
 	<script src='https://unpkg.com/headroom.js'></script>
 	<script src='{{asset('js/app.js')}}'></script>
