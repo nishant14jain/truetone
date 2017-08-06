@@ -8924,6 +8924,14 @@ footer .whatsapp:after {
   background: #C68889;
 }
 
+.page-content.homePage section.ourprocess .info-img,
+.page-content.homePage section.infographic .info-img,
+.page-content.homePage section.testimonials .info-img {
+  width: 100%;
+  max-width: 500px;
+  margin: 25px 0px;
+}
+
 .page-content.homePage section.ourprocess .true-btn,
 .page-content.homePage section.infographic .true-btn,
 .page-content.homePage section.testimonials .true-btn {
@@ -9119,151 +9127,6 @@ footer .whatsapp:after {
   background: #f3f3f3;
 }
 
-.page-content.dyesPage section.shadeCard .shade1 {
-  background: #F0EBAF;
-}
-
-.page-content.dyesPage section.shadeCard .shade2 {
-  background: #FFD400;
-}
-
-.page-content.dyesPage section.shadeCard .shade3 {
-  background: #F8DD29;
-}
-
-.page-content.dyesPage section.shadeCard .shade4 {
-  background: #ACDD71;
-}
-
-.page-content.dyesPage section.shadeCard .shade5 {
-  background: #E78A88;
-}
-
-.page-content.dyesPage section.shadeCard .shade6 {
-  background: #E9CEE2;
-}
-
-.page-content.dyesPage section.shadeCard .shade7 {
-  background: #FFBC86;
-}
-
-.page-content.dyesPage section.shadeCard .shade8 {
-  background: #E3C567;
-}
-
-.page-content.dyesPage section.shadeCard .shade9 {
-  background: #FF7800;
-}
-
-.page-content.dyesPage section.shadeCard .shade10 {
-  background: #D65400;
-}
-
-.page-content.dyesPage section.shadeCard .shade11 {
-  background: #994723;
-}
-
-.page-content.dyesPage section.shadeCard .shade12 {
-  background: #E60407;
-}
-
-.page-content.dyesPage section.shadeCard .shade13 {
-  background: #D4CDB3;
-}
-
-.page-content.dyesPage section.shadeCard .shade14 {
-  background: #766941;
-}
-
-.page-content.dyesPage section.shadeCard .shade15 {
-  background: #775144;
-}
-
-.page-content.dyesPage section.shadeCard .shade16 {
-  background: #5F8CCC;
-}
-
-.page-content.dyesPage section.shadeCard .shade17 {
-  background: #004278;
-}
-
-.page-content.dyesPage section.shadeCard .shade18 {
-  background: #2D2E33;
-}
-
-.page-content.dyesPage section.shadeCard .card-wrapper {
-  margin: 45px 0px;
-  font-size: 0;
-}
-
-.page-content.dyesPage section.shadeCard .card-wrapper .shade-card {
-  background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
-  display: inline-block;
-  width: calc(100%/18 - 10px);
-  min-width: 50px;
-  height: 80px;
-  margin: 5px;
-  cursor: pointer;
-  -webkit-transition: -webkit-transform 0.20s ease-in-out;
-  transition: -webkit-transform 0.20s ease-in-out;
-  transition: transform 0.20s ease-in-out;
-  transition: transform 0.20s ease-in-out, -webkit-transform 0.20s ease-in-out;
-}
-
-.page-content.dyesPage section.shadeCard .card-wrapper .shade-card:hover,
-.page-content.dyesPage section.shadeCard .card-wrapper .shade-card.active {
-  -webkit-box-shadow: 0px 7px 20px -6px;
-          box-shadow: 0px 7px 20px -6px;
-  -webkit-transform: scale(1.35);
-          transform: scale(1.35);
-}
-
-.page-content.dyesPage section.shadeCard .card-wrapper .shade-card.active {
-  border: 2px solid rgba(0, 0, 0, 0.4);
-}
-
-.page-content.dyesPage section.shadeCard .herb-wrapper img {
-  max-width: 100%;
-}
-
-.page-content.dyesPage section.shadeCard .desc-wrapper {
-  background: #eee;
-  padding: 25px;
-}
-
-.page-content.dyesPage section.shadeCard .desc-wrapper .shade-info {
-  color: rgba(255, 255, 255, 0.9);
-  background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
-  font-size: 18px;
-  letter-spacing: 1px;
-  padding: 15px 25px;
-  margin: 15px -35px;
-  -webkit-box-shadow: 0px 7px 25px -12px black;
-          box-shadow: 0px 7px 25px -12px black;
-}
-
-.page-content.dyesPage section.shadeCard .desc-wrapper .shade-info span {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 5px 10px;
-}
-
-.page-content.dyesPage section.shadeCard .desc-wrapper .shade-info .shadeName {
-  font-size: 22px;
-}
-
-.page-content.dyesPage section.shadeCard .desc-wrapper .shade-info .shadeNo {
-  background: rgba(0, 0, 0, 0.2);
-}
-
-.page-content.dyesPage section.shadeCard .shade-content {
-  display: none;
-}
-
-.page-content.dyesPage section.shadeCard .shade-content.active {
-  display: block;
-}
-
 .page-content.dyesPage section.applications {
   background: #A7A998;
 }
@@ -9281,11 +9144,208 @@ footer .whatsapp:after {
   max-width: 150px;
 }
 
+section.shadeCard .shade1 {
+  background: #F0EBAF;
+}
+
+section.shadeCard .shade2 {
+  background: #FFD400;
+}
+
+section.shadeCard .shade3 {
+  background: #F8DD29;
+}
+
+section.shadeCard .shade4 {
+  background: #ACDD71;
+}
+
+section.shadeCard .shade5 {
+  background: #E78A88;
+}
+
+section.shadeCard .shade6 {
+  background: #E9CEE2;
+}
+
+section.shadeCard .shade7 {
+  background: #FFBC86;
+}
+
+section.shadeCard .shade8 {
+  background: #E3C567;
+}
+
+section.shadeCard .shade9 {
+  background: #FF7800;
+}
+
+section.shadeCard .shade10 {
+  background: #D65400;
+}
+
+section.shadeCard .shade11 {
+  background: #994723;
+}
+
+section.shadeCard .shade12 {
+  background: #E60407;
+}
+
+section.shadeCard .shade13 {
+  background: #D4CDB3;
+}
+
+section.shadeCard .shade14 {
+  background: #766941;
+}
+
+section.shadeCard .shade15 {
+  background: #775144;
+}
+
+section.shadeCard .shade16 {
+  background: #5F8CCC;
+}
+
+section.shadeCard .shade17 {
+  background: #004278;
+}
+
+section.shadeCard .shade18 {
+  background: #2D2E33;
+}
+
+section.shadeCard .card-wrapper {
+  margin: 45px 0px;
+  font-size: 0;
+}
+
+section.shadeCard .card-wrapper .shade-card {
+  background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
+  display: inline-block;
+  width: calc(100%/18 - 10px);
+  min-width: 50px;
+  height: 80px;
+  margin: 5px;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.20s ease-in-out;
+  transition: -webkit-transform 0.20s ease-in-out;
+  transition: transform 0.20s ease-in-out;
+  transition: transform 0.20s ease-in-out, -webkit-transform 0.20s ease-in-out;
+}
+
+section.shadeCard .card-wrapper .shade-card:hover,
+section.shadeCard .card-wrapper .shade-card.active {
+  -webkit-box-shadow: 0px 7px 20px -6px;
+          box-shadow: 0px 7px 20px -6px;
+  -webkit-transform: scale(1.35);
+          transform: scale(1.35);
+}
+
+section.shadeCard .card-wrapper .shade-card.active {
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+section.shadeCard .herb-wrapper img {
+  max-width: 100%;
+}
+
+section.shadeCard .desc-wrapper {
+  background: #eee;
+  padding: 25px;
+}
+
+section.shadeCard .desc-wrapper .shade-info {
+  color: rgba(255, 255, 255, 0.9);
+  background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 15px 25px;
+  margin: 15px -35px;
+  -webkit-box-shadow: 0px 7px 25px -12px black;
+          box-shadow: 0px 7px 25px -12px black;
+}
+
+section.shadeCard .desc-wrapper .shade-info span {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px 10px;
+}
+
+section.shadeCard .desc-wrapper .shade-info .shadeName {
+  font-size: 22px;
+}
+
+section.shadeCard .desc-wrapper .shade-info .shadeNo {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+section.shadeCard .shade-content {
+  display: none;
+}
+
+section.shadeCard .shade-content.active {
+  display: block;
+}
+
 .page-content.fabricsPage .page-hero {
   padding: 45px 0px;
   background: #9E95AE;
   min-height: 500px;
   text-align: center;
+}
+
+.page-content.fabricsPage .page-hero h1.quote {
+  font-weight: bold;
+  color: white;
+}
+
+.page-content.fabricsPage .page-hero h1.quote small {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 15px;
+  display: block;
+  font-weight: 100;
+}
+
+.page-content.fabricsPage section.showcase {
+  background: #F3F3F3;
+}
+
+.page-content.fabricsPage section.showcase .fabric-types-wrapper {
+  margin: 45px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.page-content.fabricsPage section.showcase .fabric-type {
+  background-size: cover !important;
+  background-position: center !important;
+  text-align: left;
+  width: calc(50% - 10px);
+  margin: 5px;
+  min-height: 400px;
+  -webkit-box-shadow: 0px 6px 21px -7px black;
+          box-shadow: 0px 6px 21px -7px black;
+  border: 5px solid rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  background: white;
+  -webkit-transition: -webkit-transform 0.3s linear;
+  transition: -webkit-transform 0.3s linear;
+  transition: transform 0.3s linear;
+  transition: transform 0.3s linear, -webkit-transform 0.3s linear;
+}
+
+.page-content.fabricsPage section.showcase .fabric-type h2 {
+  color: rgba(0, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 25px;
+  display: inline-block;
+  margin-left: -25px;
+  font-size: 25px;
 }
 
 .page-content.yarnsPage .page-hero {

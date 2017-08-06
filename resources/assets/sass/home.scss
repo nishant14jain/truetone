@@ -150,6 +150,11 @@
 		}
 	}
 	section.ourprocess{
+		.info-img{
+			width:100%;
+			max-width:500px;
+			margin:25px 0px;
+		}
 		.true-btn{
 			color:$p-color2;
 		}
@@ -232,7 +237,7 @@
 			padding:15px;
 			padding-top:25px;
 			font-weight:bold;
-		}		
+		}
 		.panel-default > .panel-heading{
 			padding:0px;
 		}

@@ -84,82 +84,6 @@
 	section.history,section.health-benefits{
 		background:#f3f3f3;
 	}
-	section.shadeCard{
-		.shade1{background:$dye-shade1}
-		.shade2{background:$dye-shade2}
-		.shade3{background:$dye-shade3}
-		.shade4{background:$dye-shade4}
-		.shade5{background:$dye-shade5}
-		.shade6{background:$dye-shade6}
-		.shade7{background:$dye-shade7}
-		.shade8{background:$dye-shade8}
-		.shade9{background:$dye-shade9}
-		.shade10{background:$dye-shade10}
-		.shade11{background:$dye-shade11}
-		.shade12{background:$dye-shade12}
-		.shade13{background:$dye-shade13}
-		.shade14{background:$dye-shade14}
-		.shade15{background:$dye-shade15}
-		.shade16{background:$dye-shade16}
-		.shade17{background:$dye-shade17}
-		.shade18{background:$dye-shade18}
-		.card-wrapper{
-			margin:45px 0px;
-			font-size:0;
-			.shade-card{
-				background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
-				display:inline-block;
-				width: calc(100%/18 - 10px);
-				min-width:50px;
-				height:80px;
-				margin:5px;
-				cursor:pointer;
-				transition:transform 0.20s ease-in-out;
-			}
-			.shade-card:hover,.shade-card.active{
-				box-shadow: 0px 7px 20px -6px;
-				transform:scale(1.35);
-			}
-			.shade-card.active{
-				border: 2px solid rgba(0,0,0,0.4);
-			}
-		}
-		.herb-wrapper{
-			img{
-				max-width:100%;
-			}
-		}
-		.desc-wrapper{
-			background: #eee;
-			padding: 25px;
-			.shade-info{
-				color: rgba(255,255,255,0.9);
-				background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
-				font-size: 18px;
-				letter-spacing: 1px;
-				padding:15px 25px;
-				margin: 15px -35px;
-				box-shadow: 0px 7px 25px -12px black;
-				span{
-					display:inline-block;
-					vertical-align:middle;
-					padding:5px 10px;
-				}
-				.shadeName{
-					font-size:22px;
-				}
-				.shadeNo{
-					background:rgba(0,0,0,0.2);
-				}
-			}
-		}
-		.shade-content{
-			display:none;
-		}
-		.shade-content.active{
-			display:block;
-		}
-	}
 	section.applications{
 		background:$p-color1;
 		.row{
@@ -171,5 +95,81 @@
 		svg,img{
 			max-width:150px;
 		}
-	}	
+	}
+}
+section.shadeCard{
+	.shade1{background:$dye-shade1}
+	.shade2{background:$dye-shade2}
+	.shade3{background:$dye-shade3}
+	.shade4{background:$dye-shade4}
+	.shade5{background:$dye-shade5}
+	.shade6{background:$dye-shade6}
+	.shade7{background:$dye-shade7}
+	.shade8{background:$dye-shade8}
+	.shade9{background:$dye-shade9}
+	.shade10{background:$dye-shade10}
+	.shade11{background:$dye-shade11}
+	.shade12{background:$dye-shade12}
+	.shade13{background:$dye-shade13}
+	.shade14{background:$dye-shade14}
+	.shade15{background:$dye-shade15}
+	.shade16{background:$dye-shade16}
+	.shade17{background:$dye-shade17}
+	.shade18{background:$dye-shade18}
+	.card-wrapper{
+		margin:45px 0px;
+		font-size:0;
+		.shade-card{
+			background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
+			display:inline-block;
+			width: calc(100%/18 - 10px);
+			min-width:50px;
+			height:80px;
+			margin:5px;
+			cursor:pointer;
+			transition:transform 0.20s ease-in-out;
+		}
+		.shade-card:hover,.shade-card.active{
+			box-shadow: 0px 7px 20px -6px;
+			transform:scale(1.35);
+		}
+		.shade-card.active{
+			border: 2px solid rgba(0,0,0,0.4);
+		}
+	}
+	.herb-wrapper{
+		img{
+			max-width:100%;
+		}
+	}
+	.desc-wrapper{
+		background: #eee;
+		padding: 25px;
+		.shade-info{
+			color: rgba(255,255,255,0.9);
+			background-image: url(https://www.transparenttextures.com/patterns/fabric-plaid.png);
+			font-size: 18px;
+			letter-spacing: 1px;
+			padding:15px 25px;
+			margin: 15px -35px;
+			box-shadow: 0px 7px 25px -12px black;
+			span{
+				display:inline-block;
+				vertical-align:middle;
+				padding:5px 10px;
+			}
+			.shadeName{
+				font-size:22px;
+			}
+			.shadeNo{
+				background:rgba(0,0,0,0.2);
+			}
+		}
+	}
+	.shade-content{
+		display:none;
+	}
+	.shade-content.active{
+		display:block;
+	}
 }
