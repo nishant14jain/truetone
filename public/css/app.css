@@ -8762,7 +8762,7 @@ footer .whatsapp:after {
           transform: translateY(-50%);
   font-size: 65px;
   color: white;
-  z-index: 0;
+  z-index: 1;
   font-weight: bold;
 }
 
@@ -8969,18 +8969,37 @@ footer .whatsapp:after {
   margin: 45px 0px;
 }
 
+.page-content.homePage section.faq .panel-group .panel {
+  border: 0;
+  border-radius: 0;
+  margin: 5px 0px;
+  -webkit-box-shadow: 0px 0px 10px -5px;
+          box-shadow: 0px 0px 10px -5px;
+}
+
 .page-content.homePage section.faq .pmd-tabs .nav-tabs.nav-justified > li > a {
   color: #373737;
   font-size: 20px;
-  border-bottom: 1px solid #747474;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-weight: bold;
+  opacity: 0.7;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.page-content.homePage section.faq .pmd-tabs .nav-tabs.nav-justified > li > a:hover {
+  opacity: 1;
+}
+
+.page-content.homePage section.faq .pmd-tabs .nav-tabs.nav-justified > li.active a {
+  color: #8D3C3E;
+  opacity: 1;
 }
 
 .page-content.homePage section.faq .pmd-tabs-bg {
   color: #373737;
-}
-
-.page-content.homePage section.faq .pmd-tabs-bg {
-  background: white;
+  background: transparent;
 }
 
 .page-content.homePage section.faq .pmd-tabs .pmd-tab-active-bar {
@@ -8996,6 +9015,7 @@ footer .whatsapp:after {
 .page-content.homePage section.faq .panel-title > a {
   display: block;
   padding: 15px;
+  padding-top: 25px;
   font-weight: bold;
 }
 
