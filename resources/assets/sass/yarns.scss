@@ -5,5 +5,51 @@
 		background:$p-color1;
 		min-height:500px;
 		text-align:center;
+		h1.quote{
+			font-weight: bold;
+			color: white;
+			small{
+				color: rgba(0,0,0,0.7);
+				margin: 15px;
+				display: block;
+				font-weight: 100;
+			}
+		}
+	}
+	section.introduction{
+		background:#f3f3f3;
+		.creative-wrapper{
+			height:300px;
+			width:300px;
+			border-radius:50%;
+			background:#eee;
+		}
+		.desc-wrapper{
+			h2{
+				font-weight:bold;
+			}
+			.true-btn{
+				background:$p-color2;
+				color:white;
+			}
+		}
+	}
+	section.shades{
+		img.shades{
+			width:70%;
+			max-width:800px;
+			margin:25px 0px;
+		}
+	}
+	section.showcase{
+		background:#f3f3f3;
+		.showcase-wrapper{
+			margin:45px -15px;
+			img{
+				box-shadow: 0px 6px 21px -7px black;
+				border: 5px solid rgba(255, 255, 255, 0.95);
+				max-width:100%;
+			}
+		}
 	}
 }

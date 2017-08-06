@@ -9355,3 +9355,56 @@ section.shadeCard .shade-content.active {
   text-align: center;
 }
 
+.page-content.yarnsPage .page-hero h1.quote {
+  font-weight: bold;
+  color: white;
+}
+
+.page-content.yarnsPage .page-hero h1.quote small {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 15px;
+  display: block;
+  font-weight: 100;
+}
+
+.page-content.yarnsPage section.introduction {
+  background: #f3f3f3;
+}
+
+.page-content.yarnsPage section.introduction .creative-wrapper {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background: #eee;
+}
+
+.page-content.yarnsPage section.introduction .desc-wrapper h2 {
+  font-weight: bold;
+}
+
+.page-content.yarnsPage section.introduction .desc-wrapper .true-btn {
+  background: #C68889;
+  color: white;
+}
+
+.page-content.yarnsPage section.shades img.shades {
+  width: 70%;
+  max-width: 800px;
+  margin: 25px 0px;
+}
+
+.page-content.yarnsPage section.showcase {
+  background: #f3f3f3;
+}
+
+.page-content.yarnsPage section.showcase .showcase-wrapper {
+  margin: 45px -15px;
+}
+
+.page-content.yarnsPage section.showcase .showcase-wrapper img {
+  -webkit-box-shadow: 0px 6px 21px -7px black;
+          box-shadow: 0px 6px 21px -7px black;
+  border: 5px solid rgba(255, 255, 255, 0.95);
+  max-width: 100%;
+}
+
