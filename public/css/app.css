@@ -8546,6 +8546,34 @@ p {
   height: 77px;
 }
 
+section.linkpages {
+  padding: 0;
+  text-align: center;
+}
+
+section.linkpages .faq h1 {
+  color: #A7A998;
+}
+
+section.linkpages .terms h1 {
+  color: #C68889;
+}
+
+section.linkpages .contact {
+  border-right: 1px solid #ddd;
+}
+
+section.linkpages .contact h1 {
+  color: #9E95AE;
+}
+
+section.linkpages .faq,
+section.linkpages .terms,
+section.linkpages .contact {
+  padding: 45px 10px;
+  border-left: 1px solid #ddd;
+}
+
 footer {
   padding-top: 10px;
   background: #EEEEEE;
@@ -8715,7 +8743,7 @@ footer .whatsapp:after {
 }
 
 .page-content.homePage section.landing {
-  background: #f8f8f8;
+  background: black;
   padding: 0;
   text-align: center;
 }
@@ -8723,8 +8751,6 @@ footer .whatsapp:after {
 .page-content.homePage section.landing .fullscreen-bg {
   height: 90vh;
   min-height: 500px;
-  -webkit-box-shadow: inset 0px 0px 300px 80px black;
-          box-shadow: inset 0px 0px 300px 80px black;
   overflow: hidden;
 }
 
@@ -8735,7 +8761,7 @@ footer .whatsapp:after {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 65px;
-  color: black;
+  color: white;
   z-index: 0;
   font-weight: bold;
 }
@@ -9233,34 +9259,6 @@ footer .whatsapp:after {
 .page-content.dyesPage section.applications svg,
 .page-content.dyesPage section.applications img {
   max-width: 150px;
-}
-
-.page-content.dyesPage section.linkpages {
-  padding: 0;
-  text-align: center;
-}
-
-.page-content.dyesPage section.linkpages .faq h1 {
-  color: #A7A998;
-}
-
-.page-content.dyesPage section.linkpages .terms h1 {
-  color: #C68889;
-}
-
-.page-content.dyesPage section.linkpages .contact {
-  border-right: 1px solid #ddd;
-}
-
-.page-content.dyesPage section.linkpages .contact h1 {
-  color: #9E95AE;
-}
-
-.page-content.dyesPage section.linkpages .faq,
-.page-content.dyesPage section.linkpages .terms,
-.page-content.dyesPage section.linkpages .contact {
-  padding: 45px 10px;
-  border-left: 1px solid #ddd;
 }
 
 .page-content.fabricsPage .page-hero {

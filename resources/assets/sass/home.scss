@@ -1,6 +1,6 @@
 .page-content.homePage{
 	section.landing{
-		background:#f8f8f8;
+		background:black;
 		padding:0;
 		text-align:center;
 		// height:calc(100vh - 228px);
@@ -8,7 +8,7 @@
 			height:90vh;
 			min-height:500px;
 			// background:black;
-			box-shadow:inset 0px 0px 300px 80px black;
+			// box-shadow:inset 0px 0px 300px 80px black;
 			overflow:hidden;
 			h1{
 				position: absolute;
@@ -16,7 +16,7 @@
 				top: 42%;
 				transform: translateY(-50%);
 				font-size: 65px;
-				color: black;
+				color: white;
 				z-index: 0;
 				font-weight:bold;
 			}
@@ -37,7 +37,7 @@
 			h2{
 				font-weight:bold;
 			}
-			.true-btn{				
+			.true-btn{
 				color:white;
 			}
 		}

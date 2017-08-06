@@ -54,7 +54,21 @@
 	</header>
 
 	@yield('content')
-
+	<section class='linkpages'>
+		<div class="container">
+			<div class='row'>
+				<div class='faq col-md-4 col-lg-4 col-sm-4 col-xs-4'>
+					<h1>FAQs</h1>
+				</div>
+				<div class='terms col-md-4 col-lg-4 col-sm-4 col-xs-4'>
+					<h1>T & C</h1>
+				</div>
+				<div class='contact col-md-4 col-lg-4 col-sm-4 col-xs-4'>
+					<h1>Contact</h1>
+				</div>
+			</div>
+		</div>
+	</section>
 	<footer>
 		<h3 class='followUs'>Follow Us</h3>
 		<div class="social">

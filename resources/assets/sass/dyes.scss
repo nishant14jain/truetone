@@ -163,7 +163,7 @@
 	section.applications{
 		background:$p-color1;
 		.row{
-			margin-top:45px;			
+			margin-top:45px;
 		}
 		h1{
 			color:white;
@@ -171,29 +171,5 @@
 		svg,img{
 			max-width:150px;
 		}
-	}
-	section.linkpages{
-		padding:0;
-		text-align:center;
-		.faq{
-			h1{
-				color:$p-color1;
-			}
-		}
-		.terms{
-			h1{
-				color:$p-color2;
-			}
-		}
-		.contact{
-			border-right:1px solid #ddd;
-			h1{
-				color:$p-color3;
-			}
-		}
-		.faq,.terms,.contact{
-			padding:45px 10px;
-			border-left:1px solid #ddd;
-		}
-	}
+	}	
 }

@@ -765,26 +765,7 @@
 			</div>
 		</div>
 	</section>
-	<section class='linkpages'>
-		<div class="container">
-			<div class='row'>
-				<div class='faq col-md-4 col-lg-4 col-sm-4 col-xs-4'>
-					<h1>FAQs</h1>
-					<!-- <a href="#!" class="true-btn">
-							<span class="pull-left"></span>
-							<span class="pull-right"><i class="material-icons"></i></span>
-							<div class="clearfix"></div>
-						</a> -->
-				</div>
-				<div class='terms col-md-4 col-lg-4 col-sm-4 col-xs-4'>
-					<h1>T & C</h1>
-				</div>
-				<div class='contact col-md-4 col-lg-4 col-sm-4 col-xs-4'>
-					<h1>Contact</h1>
-				</div>
-			</div>
-		</div>
-	</section>
+
 
 </div>
 

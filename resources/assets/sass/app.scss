@@ -150,6 +150,30 @@ p{
 
 
 //Footer ----------------------------------------------------
+section.linkpages{
+	padding:0;
+	text-align:center;
+	.faq{
+		h1{
+			color:$p-color1;
+		}
+	}
+	.terms{
+		h1{
+			color:$p-color2;
+		}
+	}
+	.contact{
+		border-right:1px solid #ddd;
+		h1{
+			color:$p-color3;
+		}
+	}
+	.faq,.terms,.contact{
+		padding:45px 10px;
+		border-left:1px solid #ddd;
+	}
+}
 footer{
 	padding-top:10px;
 	background:$gray6;
