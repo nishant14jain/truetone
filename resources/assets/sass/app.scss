@@ -316,6 +316,56 @@ footer{
 	}
 }
 
+// Terms & Conditions
+.termsPage,.aboutPage{
+	.page-hero{
+		padding:45px 0px;
+		background:$s-color2;
+		// background-image: url(https://www.transparenttextures.com/patterns/grunge-wall.png);
+		min-height:500px;
+		text-align:center;
+		h1.quote{
+			font-weight: bold;
+			color: white;
+			small{
+				color: rgba(0,0,0,0.7);
+				margin: 15px;
+				display: block;
+				font-weight: 100;
+			}
+		}
+	}
+	ol{
+		padding-left:20px;
+	}
+	ol li{
+		// font-size:20px;
+		margin:15px 0px;
+	}
+	section.return{
+		background:#f3f3f3;
+	}
+}
+.aboutPage{
+	section.gallery{
+		background:#f3f3f3;		
+		font-size:0;
+		.image-wrapper{
+			display:inline-block;
+			margin:5px;
+			width:calc(50% - 10px);
+			box-shadow: 0px 6px 21px -7px black;
+			border: 5px solid rgba(255, 255, 255, 0.95);
+			max-height:340px;
+			overflow:hidden;
+			img{
+				max-width:100%;
+			}
+		}
+	}
+}
+
+
 @import "home";
 @import "dyes";
 @import "fabrics";

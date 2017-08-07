@@ -24,3 +24,12 @@ Route::get('/fabrics', function () {
 Route::get('/yarns', function () {
     return view('yarns');
 });
+Route::get('/faq', function () {
+    return view('faq');
+});
+Route::get('/terms', function () {
+    return view('terms');
+});
+Route::get('/about', function () {
+    return view('about');
+});

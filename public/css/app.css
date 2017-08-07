@@ -8742,6 +8742,63 @@ footer .whatsapp:after {
   padding: 80px 0px;
 }
 
+.termsPage .page-hero,
+.aboutPage .page-hero {
+  padding: 45px 0px;
+  background: #8D3C3E;
+  min-height: 500px;
+  text-align: center;
+}
+
+.termsPage .page-hero h1.quote,
+.aboutPage .page-hero h1.quote {
+  font-weight: bold;
+  color: white;
+}
+
+.termsPage .page-hero h1.quote small,
+.aboutPage .page-hero h1.quote small {
+  color: rgba(0, 0, 0, 0.7);
+  margin: 15px;
+  display: block;
+  font-weight: 100;
+}
+
+.termsPage ol,
+.aboutPage ol {
+  padding-left: 20px;
+}
+
+.termsPage ol li,
+.aboutPage ol li {
+  margin: 15px 0px;
+}
+
+.termsPage section.return,
+.aboutPage section.return {
+  background: #f3f3f3;
+}
+
+.aboutPage section.gallery {
+  background: #f3f3f3;
+  font-size: 0;
+}
+
+.aboutPage section.gallery .image-wrapper {
+  display: inline-block;
+  margin: 5px;
+  width: calc(50% - 10px);
+  -webkit-box-shadow: 0px 6px 21px -7px black;
+          box-shadow: 0px 6px 21px -7px black;
+  border: 5px solid rgba(255, 255, 255, 0.95);
+  max-height: 340px;
+  overflow: hidden;
+}
+
+.aboutPage section.gallery .image-wrapper img {
+  max-width: 100%;
+}
+
 .page-content.homePage section.landing {
   background: black;
   padding: 0;
@@ -9133,6 +9190,10 @@ footer .whatsapp:after {
 
 .page-content.dyesPage section.applications .row {
   margin-top: 45px;
+}
+
+.page-content.dyesPage section.applications h3 {
+  color: white;
 }
 
 .page-content.dyesPage section.applications h1 {

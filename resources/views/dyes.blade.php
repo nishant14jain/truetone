@@ -752,15 +752,19 @@
 			<div class='row'>
 				<div class='col-md-3 col-lg-3 col-sm-3 col-xs-6'>
 					<img src='{{asset('images/dye/1.svg')}}' />
+					<h3>Garment</h3>
 				</div>
 				<div class='col-md-3 col-lg-3 col-sm-3 col-xs-6'>
 					<img src='{{asset('images/dye/2.svg')}}' />
+					<h3>Fabric</h3>
 				</div>
 				<div class='col-md-3 col-lg-3 col-sm-3 col-xs-6'>
 					<img src='{{asset('images/dye/3.svg')}}' />
+					<h3>Cone</h3>
 				</div>
 				<div class='col-md-3 col-lg-3 col-sm-3 col-xs-6'>
 					<img src='{{asset('images/dye/4.svg')}}' />
+					<h3>Yarn</h3>
 				</div>
 			</div>
 		</div>
