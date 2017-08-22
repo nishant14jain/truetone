@@ -8472,7 +8472,7 @@ p {
 }
 
 .headnav .logo img {
-  height: 100px;
+  height: 77px;
 }
 
 .headnav .headnav-links {
@@ -8551,6 +8551,16 @@ section.linkpages {
   text-align: center;
 }
 
+section.linkpages a {
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+section.linkpages a:hover {
+  letter-spacing: 2px;
+}
+
 section.linkpages .faq h1 {
   color: #A7A998;
 }
@@ -8618,7 +8628,7 @@ footer .foot-links .link {
   color: rgba(255, 255, 255, 0.75);
   font-weight: bold;
   font-size: 20px;
-  line-height: 150px;
+  line-height: 75px;
   margin: 0px 1px;
   background: rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.3s ease-in;
@@ -8743,7 +8753,8 @@ footer .whatsapp:after {
 }
 
 .termsPage .page-hero,
-.aboutPage .page-hero {
+.aboutPage .page-hero,
+.faqPage .page-hero {
   padding: 45px 0px;
   background: #8D3C3E;
   min-height: 500px;
@@ -8751,13 +8762,15 @@ footer .whatsapp:after {
 }
 
 .termsPage .page-hero h1.quote,
-.aboutPage .page-hero h1.quote {
+.aboutPage .page-hero h1.quote,
+.faqPage .page-hero h1.quote {
   font-weight: bold;
   color: white;
 }
 
 .termsPage .page-hero h1.quote small,
-.aboutPage .page-hero h1.quote small {
+.aboutPage .page-hero h1.quote small,
+.faqPage .page-hero h1.quote small {
   color: rgba(0, 0, 0, 0.7);
   margin: 15px;
   display: block;
@@ -8765,17 +8778,20 @@ footer .whatsapp:after {
 }
 
 .termsPage ol,
-.aboutPage ol {
+.aboutPage ol,
+.faqPage ol {
   padding-left: 20px;
 }
 
 .termsPage ol li,
-.aboutPage ol li {
+.aboutPage ol li,
+.faqPage ol li {
   margin: 15px 0px;
 }
 
 .termsPage section.return,
-.aboutPage section.return {
+.aboutPage section.return,
+.faqPage section.return {
   background: #f3f3f3;
 }
 
@@ -9030,11 +9046,19 @@ footer .whatsapp:after {
   background: #9E95AE;
 }
 
-.page-content.homePage section.faq .pmd-card {
+section.page-hero {
+  background: #eeeeee;
+}
+
+section.faq {
+  background: #eeeeee;
+}
+
+section.faq .pmd-card {
   margin: 45px 0px;
 }
 
-.page-content.homePage section.faq .panel-group .panel {
+section.faq .panel-group .panel {
   border: 0;
   border-radius: 0;
   margin: 5px 0px;
@@ -9042,7 +9066,7 @@ footer .whatsapp:after {
           box-shadow: 0px 0px 10px -5px;
 }
 
-.page-content.homePage section.faq .pmd-tabs .nav-tabs.nav-justified > li > a {
+section.faq .pmd-tabs .nav-tabs.nav-justified > li > a {
   color: #373737;
   font-size: 20px;
   font-weight: normal;
@@ -9053,38 +9077,38 @@ footer .whatsapp:after {
   transition: all 0.2s;
 }
 
-.page-content.homePage section.faq .pmd-tabs .nav-tabs.nav-justified > li > a:hover {
+section.faq .pmd-tabs .nav-tabs.nav-justified > li > a:hover {
   opacity: 1;
 }
 
-.page-content.homePage section.faq .pmd-tabs .nav-tabs.nav-justified > li.active a {
+section.faq .pmd-tabs .nav-tabs.nav-justified > li.active a {
   color: #8D3C3E;
   opacity: 1;
 }
 
-.page-content.homePage section.faq .pmd-tabs-bg {
+section.faq .pmd-tabs-bg {
   color: #373737;
   background: transparent;
 }
 
-.page-content.homePage section.faq .pmd-tabs .pmd-tab-active-bar {
+section.faq .pmd-tabs .pmd-tab-active-bar {
   background: #8D3C3E;
   height: 4px;
   z-index: 1;
 }
 
-.page-content.homePage section.faq .tab-content {
+section.faq .tab-content {
   text-align: left;
 }
 
-.page-content.homePage section.faq .panel-title > a {
+section.faq .panel-title > a {
   display: block;
   padding: 15px;
   padding-top: 25px;
   font-weight: bold;
 }
 
-.page-content.homePage section.faq .panel-default > .panel-heading {
+section.faq .panel-default > .panel-heading {
   padding: 0px;
 }
 

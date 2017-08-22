@@ -1,0 +1,57 @@
+section.page-hero{
+	background:#eeeeee;
+}
+section.faq{
+	background:#eeeeee;
+	.pmd-card{
+		margin:45px 0px;
+	}
+	.panel-group .panel{
+		border:0;
+		border-radius:0;
+		margin:5px 0px;
+		box-shadow: 0px 0px 10px -5px;
+	}
+	.pmd-tabs .nav-tabs.nav-justified > li > a{
+		color:$gray1;
+		font-size:20px;
+		// border-bottom: 1px solid $gray3;
+		font-weight:normal;
+		text-transform:capitalize;
+		font-weight:bold;
+		opacity:0.7;
+		transition:all 0.2s;
+	}
+	.pmd-tabs .nav-tabs.nav-justified > li > a:hover{
+		opacity:1;
+	}
+	.pmd-tabs .nav-tabs.nav-justified > li.active a{
+		color:$s-color2;
+		opacity:1;
+	}
+	.pmd-tabs-bg{
+		color:$gray1;
+		background:transparent;
+	}
+
+	.pmd-tabs .pmd-tab-active-bar{
+		background:$s-color2;
+		height:4px;
+		z-index:1;
+	}
+	.tab-content{
+		text-align:left;
+	}
+	.tab-content > .tab-pane{
+		// height:400px;
+	}
+	.panel-title > a{
+		display:block;
+		padding:15px;
+		padding-top:25px;
+		font-weight:bold;
+	}
+	.panel-default > .panel-heading{
+		padding:0px;
+	}
+}

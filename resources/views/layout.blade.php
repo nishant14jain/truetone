@@ -14,7 +14,7 @@
 
 <body>
 	<header id='header' class='headnav headroom'>
-		<div class='limitWidth'>
+		<div class='limitWidth container'>
 			<div class='pull-left'>
 				<ul class='headnav-links'>
 					<li>
@@ -36,17 +36,20 @@
 			<div class='pull-right'>
 				<ul class='headnav-links'>
 					<li>
-						<a href='#!'>About Us</a>
+						<a href='{{url('about')}}'>About Us</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a href='#!'>R & D</a>
-					</li>
+					</li> -->
 					<li>
 						<a href='#!'>Contact</a>
 					</li>
 					<li>
-						<a href='#!'>Account</a>
+						<a href='#!'>T&C</a>
 					</li>
+					<!-- <li>
+						<a href='#!'>Account</a>
+					</li> -->
 				</ul>
 			</div>
 			<div class='clearfix'></div>
@@ -58,13 +61,19 @@
 		<div class="container">
 			<div class='row'>
 				<div class='faq col-md-4 col-lg-4 col-sm-4 col-xs-4'>
-					<h1>FAQs</h1>
+					<a href="{{url('faq')}}">
+						<h1>FAQs</h1>
+					</a>
 				</div>
 				<div class='terms col-md-4 col-lg-4 col-sm-4 col-xs-4'>
-					<h1>T & C</h1>
+					<a href="{{url('terms')}}">
+						<h1>T & C</h1>
+					</a>
 				</div>
 				<div class='contact col-md-4 col-lg-4 col-sm-4 col-xs-4'>
-					<h1>Contact</h1>
+					<a href="{{url('contact')}}">
+						<h1>Contact Us</h1>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -82,9 +91,6 @@
 			<div class='link'>Dyes</div>
 			<div class='link'>Yarns</div>
 			<div class='link'>Fabrics</div>
-			<div class='link'>About Us</div>
-			<div class='link'>Foundation</div>
-			<div class='link'>Contact</div>
 		</div>
 		<div class='logo-wrapper'>
 			<img class='svg' src='{{asset('images/logo.svg')}}'>
