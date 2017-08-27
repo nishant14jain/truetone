@@ -5,7 +5,7 @@
 		<div class="fullscreen-bg">
 			<!-- <img class='svg' src='{{asset('images/logo.svg')}}'> -->
 			<h1>We live and dye naturally</h1>
-			<video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+			<video loop muted autoplay poster="{{asset('images/poster.jpg')}}" class="fullscreen-bg__video">
 				<source src="{{asset('images/truetone2.mp4')}}" type="video/mp4"></source>
 			</video>
 		</div>
@@ -128,7 +128,7 @@
 	<section class='ourprocess'>
 		<div class='container'>
 			<h1>Our Process</h1>
-			<img class='info-img' src='{{asset('images/Infographic-02.svg')}}' />			
+			<img class='info-img' src='{{asset('images/Infographic-02.svg')}}' />
 			<p>Truetone is the leading online shop of herbal dyed organic clothes for men and women.
 				We have a wide range of natural clothing from underwear to fabrics and towels and more.
 				Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.
