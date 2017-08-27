@@ -8843,7 +8843,7 @@ footer .whatsapp:after {
   width: 100%;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  opacity: 0.5;
+  opacity: 0.85;
 }
 
 .page-content.homePage section.dyes .creative-wrapper,
