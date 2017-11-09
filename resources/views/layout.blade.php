@@ -29,27 +29,21 @@
 				</ul>
 			</div>
 			<div class='logo'>
-				<a href='{{ url('/') }}'>
-					<img class='svg' src='{{asset('images/logo.svg')}}'>
+				<a href='{{ url("/") }}'>
+					<img class='svg' src='{{asset("images/logo.svg")}}'>
 				</a>
 			</div>
 			<div class='pull-right'>
 				<ul class='headnav-links'>
 					<li>
-						<a href='{{url('about')}}'>About Us</a>
-					</li>
-					<!-- <li>
-						<a href='#!'>R & D</a>
-					</li> -->
+						<a href='{{url("about")}}'>About Us</a>
+					</li>					
 					<li>
 						<a href='#!'>Contact</a>
 					</li>
 					<li>
-						<a href='#!'>T&C</a>
-					</li>
-					<!-- <li>
-						<a href='#!'>Account</a>
-					</li> -->
+						<a href='{{url("terms")}}'>T&C</a>
+					</li>					
 				</ul>
 			</div>
 			<div class='clearfix'></div>

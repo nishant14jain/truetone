@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css?family=Signika:300,400,600,700');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700');
 
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
 // Variables
 @import "variables";
 
@@ -44,9 +47,9 @@ body{
 	transform:translate(-50%,-50%);
 }
 h1{
-	font-weight:bold;
+	font-weight:900;
 	color:$gray1;
-	margin:25px 0px;
+	margin:25px 0px 15px;
 }
 p{
 	font-size:18px;
@@ -91,6 +94,9 @@ p{
 		img{
 			height:77px;
 		}
+		svg{
+			height:77px;
+		}
 	}
 	.headnav-links{
 		padding:0;
@@ -123,7 +129,7 @@ p{
 	transform: translateY(0%);
 }
 .headroom--unpinned {
-	transform: translateY(-100%);
+	// transform: translateY(-100%);
 }
 .headroom--top{
 	background:transparent;

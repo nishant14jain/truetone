@@ -1,6 +1,6 @@
 .page-content.homePage{
 	section.landing{
-		background:black;
+		background:rgb(0,20,40);
 		padding:0;
 		text-align:center;
 		// height:calc(100vh - 228px);
@@ -18,12 +18,12 @@
 				font-size: 65px;
 				color: white;
 				z-index: 1;
-				font-weight:bold;
+				font-weight:900;
 			}
 			video{
 				width:100%;
 				transform:scale(1.2);
-				opacity:0.85;
+				opacity:0.65;
 			}
 		}
 	}
@@ -140,8 +140,7 @@
 		text-align:center;
 		padding:80px 0px;
 		h1{
-			color:$gray1;
-			font-weight: 800;
+			color:$gray1;			
 		}
 		h3{
 			color:$gray3;
