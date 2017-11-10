@@ -9506,6 +9506,8 @@ section.shadeCard .shade-content.active {
 
 .dye-kit {
   display: inline-block;
+  -webkit-box-shadow: 0px 1px 11px -5px black;
+          box-shadow: 0px 1px 11px -5px black;
   vertical-align: top;
   background: white;
   text-align: left;
@@ -9523,6 +9525,12 @@ section.shadeCard .shade-content.active {
 .dye-kit .contents {
   margin: 5px 0px;
   font-weight: bold;
+}
+
+.dye-kit .desc {
+  background: #fafafa;
+  font-weight: lighter;
+  padding: 5px;
 }
 
 .dye-kit .title {
