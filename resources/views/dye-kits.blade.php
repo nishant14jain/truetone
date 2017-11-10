@@ -20,7 +20,7 @@
 					<!-- <img src=''> -->
 					<div class='title'>HERBAL BLOCK PRINT KITS</div>
 					<div class='quantity pull-left'>600 gms</div>
-					<div class='price pull-right'><i class='fa fa-rupee'></i> 495/pc</div>
+					<div class='price pull-right'><i class='fa fa-rupee'></i> 495/pc | $10/pc</div>
 					<div class='clearfix'></div>
 					<div class='desc'>
 						Recycled paper packaging
@@ -41,7 +41,7 @@
 					<!-- <img src=''> -->
 					<div class='title'>HERBAL BLOCK PRINT KITS</div>
 					<div class='quantity pull-left'>730 gms</div>
-					<div class='price pull-right'><i class='fa fa-rupee'></i> 695/pc</div>
+					<div class='price pull-right'><i class='fa fa-rupee'></i> 695/pc | $12/pc</div>
 					<div class='clearfix'></div>
 					<div class='desc'>
 						Treasure chest TIN gift pack
