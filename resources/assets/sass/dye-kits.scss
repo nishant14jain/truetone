@@ -1,0 +1,35 @@
+.page-content.dye-kits{
+	background:#fafafa;
+}
+
+.kits-wrapper{
+	padding:25px 0px;
+}
+
+.dye-kit{
+	display:inline-block;	
+	vertical-align:top;
+	background:white;
+	text-align:left;
+	max-width:400px;
+	width:calc(50% - 22px);
+	padding:15px 25px;	
+	border-radius:2px;
+	margin:10px;
+	.title,.quantity,.price,.desc,.contents{
+		margin:5px 0px;
+		font-weight:bold;		
+	}
+	.title{
+		font-weight:lighter;	
+		background:$p-color2;
+		color:white;
+		font-size: 18px;
+		padding:10px;		
+		margin:0px -25px;
+	}
+	ul{
+		padding-left:20px;
+		font-weight:lighter;
+	}
+}

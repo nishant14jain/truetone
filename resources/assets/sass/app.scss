@@ -50,6 +50,7 @@ h1{
 	font-weight:900;
 	color:$gray1;
 	margin:25px 0px 15px;
+	font-size:30px;
 }
 p{
 	font-size:18px;
@@ -338,13 +339,13 @@ footer{
 		min-height:500px;
 		text-align:center;
 		h1.quote{
+			text-align:justify;
 			font-weight: bold;
 			color: white;
 			small{
 				color: rgba(0,0,0,0.7);
-				margin: 15px;
-				display: block;
-				font-weight: 100;
+				margin: 15px 0px;				
+				font-weight: bold;
 			}
 		}
 	}
@@ -384,3 +385,4 @@ footer{
 @import "dyes";
 @import "fabrics";
 @import "yarns";
+@import "dye-kits";

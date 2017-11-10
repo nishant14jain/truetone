@@ -8428,6 +8428,7 @@ h1 {
   font-weight: 900;
   color: #373737;
   margin: 25px 0px 15px;
+  font-size: 30px;
 }
 
 p {
@@ -8536,7 +8537,7 @@ p {
 }
 
 .headroom--not-top {
-  background: rgba(255, 255, 255, 0.9);
+  background: white;
   -webkit-box-shadow: 0px 4px 14px -8px black;
           box-shadow: 0px 4px 14px -8px black;
 }
@@ -8763,6 +8764,7 @@ footer .whatsapp:after {
 .termsPage .page-hero h1.quote,
 .aboutPage .page-hero h1.quote,
 .faqPage .page-hero h1.quote {
+  text-align: justify;
   font-weight: bold;
   color: white;
 }
@@ -8771,9 +8773,8 @@ footer .whatsapp:after {
 .aboutPage .page-hero h1.quote small,
 .faqPage .page-hero h1.quote small {
   color: rgba(0, 0, 0, 0.7);
-  margin: 15px;
-  display: block;
-  font-weight: 100;
+  margin: 15px 0px;
+  font-weight: bold;
 }
 
 .termsPage ol,
@@ -8875,11 +8876,21 @@ footer .whatsapp:after {
 }
 
 .page-content.homePage section.yarns {
-  background: #F3F3F3;
+  background: #00af64;
 }
 
 .page-content.homePage section.yarns .true-btn {
-  background: #00af64;
+  color: #00af64 !important;
+  background: white;
+}
+
+.page-content.homePage section.yarns h1,
+.page-content.homePage section.yarns p {
+  color: white;
+}
+
+.page-content.homePage section.yarns p {
+  opacity: 0.75;
 }
 
 .page-content.homePage section.fabrics .true-btn {
@@ -8955,38 +8966,32 @@ footer .whatsapp:after {
   opacity: 0.4;
 }
 
-.page-content.homePage section.whoweare,
-.page-content.homePage section.ourprocess,
-.page-content.homePage section.infographic,
-.page-content.homePage section.testimonials,
-.page-content.homePage section.certified,
-.page-content.homePage section.faq,
-.page-content.homePage section.blogNews {
-  background: #F3F3F3;
+.page-content.homePage section {
   text-align: center;
   padding: 80px 0px;
 }
 
-.page-content.homePage section.whoweare h1,
-.page-content.homePage section.ourprocess h1,
-.page-content.homePage section.infographic h1,
-.page-content.homePage section.testimonials h1,
-.page-content.homePage section.certified h1,
-.page-content.homePage section.faq h1,
-.page-content.homePage section.blogNews h1 {
+.page-content.homePage section h1 {
   color: #373737;
 }
 
-.page-content.homePage section.whoweare h3,
-.page-content.homePage section.ourprocess h3,
-.page-content.homePage section.infographic h3,
-.page-content.homePage section.testimonials h3,
-.page-content.homePage section.certified h3,
-.page-content.homePage section.faq h3,
-.page-content.homePage section.blogNews h3 {
+.page-content.homePage section h3 {
   color: #747474;
   line-height: 40px;
   font-style: italic;
+}
+
+.page-content.homePage section.whoweare {
+  background: #8D3C3E;
+}
+
+.page-content.homePage section.whoweare h1,
+.page-content.homePage section.whoweare p {
+  color: white;
+}
+
+.page-content.homePage section.whoweare p {
+  opacity: 0.75;
 }
 
 .page-content.homePage section.ourprocess,
@@ -9059,7 +9064,7 @@ section.faq .pmd-card {
 section.faq .panel-group .panel {
   border: 0;
   border-radius: 0;
-  margin: 5px 0px;
+  margin: 10px 0px;
   -webkit-box-shadow: 0px 0px 10px -5px;
           box-shadow: 0px 0px 10px -5px;
 }
@@ -9118,15 +9123,15 @@ section.faq .panel-default > .panel-heading {
 }
 
 .page-content.dyesPage .page-hero h1.quote {
+  text-align: justify;
   font-weight: bold;
   color: white;
 }
 
 .page-content.dyesPage .page-hero h1.quote small {
   color: rgba(0, 0, 0, 0.7);
-  margin: 15px;
-  display: block;
-  font-weight: 100;
+  margin: 15px 0px;
+  font-weight: bold;
 }
 
 .page-content.dyesPage section.introduction .creative-wrapper {
@@ -9489,5 +9494,48 @@ section.shadeCard .shade-content.active {
           box-shadow: 0px 6px 21px -7px black;
   border: 5px solid rgba(255, 255, 255, 0.95);
   max-width: 100%;
+}
+
+.page-content.dye-kits {
+  background: #fafafa;
+}
+
+.kits-wrapper {
+  padding: 25px 0px;
+}
+
+.dye-kit {
+  display: inline-block;
+  vertical-align: top;
+  background: white;
+  text-align: left;
+  max-width: 400px;
+  width: calc(50% - 22px);
+  padding: 15px 25px;
+  border-radius: 2px;
+  margin: 10px;
+}
+
+.dye-kit .title,
+.dye-kit .quantity,
+.dye-kit .price,
+.dye-kit .desc,
+.dye-kit .contents {
+  margin: 5px 0px;
+  font-weight: bold;
+}
+
+.dye-kit .title {
+  font-weight: lighter;
+  background: #C68889;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  margin: 0px -25px;
+}
+
+.dye-kit ul {
+  padding-left: 20px;
+  font-weight: lighter;
 }
 

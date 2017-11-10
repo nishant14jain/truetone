@@ -55,13 +55,16 @@
 		}
 	}
 	section.yarns{
-		background:#F3F3F3;
+		background:$p-color1;
 		.true-btn{
-			background:$p-color1;
+			color:$p-color1 !important;
+			background:white;
 		}
-		h1{
-			// color:$p-color1;
+		h1,p{
+			color:white;
 		}
+		p{opacity:0.75;}
+
 	}
 	section.fabrics{
 		.true-btn{
@@ -135,8 +138,7 @@
 			opacity:0.4;
 		}
 	}
-	section.whoweare{
-		background:#F3F3F3;
+	section{
 		text-align:center;
 		padding:80px 0px;
 		h1{
@@ -148,6 +150,15 @@
 			font-style: italic;
 		}
 	}
+	section.whoweare{
+		background:$s-color2;	
+		h1,p{
+			color:white;
+		}			
+		p{
+			opacity:0.75;
+		}
+	}
 	section.ourprocess{
 		.info-img{
 			width:100%;
@@ -156,8 +167,7 @@
 		}
 		.true-btn{
 			color:$p-color2;
-		}
-		@extend section.whoweare;
+		}		
 		background:$p-color2;
 		h1,h3,p{
 			color:white;
@@ -170,14 +180,13 @@
 		.true-btn{
 			background:$s-color2;
 			color:white;
-		}
-		@extend section.whoweare;
+		}		
 		h2{
 			color:$s-color2;
 		}
 	}
 	section.infographic, section.faq, section.blogNews, section.testimonials{
-		@extend section.whoweare;
+
 	}
 	section.infographic{
 		@extend section.ourprocess;

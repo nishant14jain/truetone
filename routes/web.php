@@ -33,3 +33,6 @@ Route::get('/terms', function () {
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/dye-kits', function () {
+    return view('dye-kits');
+});

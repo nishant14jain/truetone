@@ -5,7 +5,7 @@
 <div class='page-content dyesPage'>
 	<section class='page-hero pos-rel'>
 		<div class='vCenter pos-abs centerXY'>
-			<h1 class='quote'>"Let me, O let me bathe my soul in colours; let me swallow the sunset and drink the rainbow." <br /> <small>- Kahlil Gibran</small></h1>
+			<h1 class='quote'>"Let me, O let me bathe my soul in colours; let me swallow the sunset and drink the rainbow." <small>- Kahlil Gibran</small></h1>
 		</div>
 	</section>
 
@@ -13,8 +13,7 @@
 		<div class='container'>
 			<div class='row'>
 				<div class='col-md-6 col-lg-6 col-sm-12 col-xs-12'>
-					<div class='creative-wrapper center-block' style="background:url('images/dye.png');background-size:cover;">
-						<!-- <img src='{{asset('images/dye.png')}}' /> -->
+					<div class='creative-wrapper center-block' style="background:url('images/dye.png');background-size:cover;">						
 					</div>
 				</div>
 				<div class='col-md-6 col-lg-6 col-sm-12 col-xs-12'>

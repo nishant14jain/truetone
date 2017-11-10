@@ -7,13 +7,13 @@
 		min-height:500px;
 		text-align:center;
 		h1.quote{
+			text-align:justify;
 			font-weight: bold;
 			color: white;
 			small{
 				color: rgba(0,0,0,0.7);
-				margin: 15px;
-				display: block;
-				font-weight: 100;
+				margin: 15px 0px;	
+				font-weight:bold;							
 			}
 		}
 	}
@@ -176,3 +176,5 @@ section.shadeCard{
 		display:block;
 	}
 }
+
+

@@ -126,18 +126,27 @@
 	</section>
 
 	<section class='ourprocess'>
-		<div class='container'>
-			<h1>Our Process</h1>
-			<img class='info-img' src='{{asset('images/Infographic-02.svg')}}' />
-			<p>Truetone is the leading online shop of herbal dyed organic clothes for men and women.
-				We have a wide range of natural clothing from underwear to fabrics and towels and more.
-				Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.
-			</p>
-			<a href='#!' class='true-btn'>
-				<span class='pull-left'>Learn more</span>
-				<span class='pull-right'><i class="material-icons">&#xE5C8;</i></span>
-				<div class='clearfix'></div>
-			</a>
+		<div class='container'>			
+			<div class='row'>				
+				<div class='col-md-6 col-lg-6 col-sm-12 col-xs-12 text-left'>
+					<h1>Our Process</h1>
+					<p>Truetone is the leading online shop of herbal dyed organic clothes for men and women.
+						We have a wide range of natural clothing from underwear to fabrics and towels and more.
+						Our men's clothes cover organic cotton tee, boxer, brief, vest and more while womens clothing covers bikini, hipster, camisole, organic t-shirts.
+					</p>		
+					<a href='#!' class='true-btn'>
+						<span class='pull-left'>Learn more</span>
+						<span class='pull-right'><i class="material-icons">&#xE5C8;</i></span>
+						<div class='clearfix'></div>
+					</a>
+				</div>
+				<div class='col-md-6 col-lg-6 col-sm-12 col-xs-12'>
+					<img class='info-img' src='{{asset('images/Infographic_One.png')}}' />		
+				</div>
+			</div>
+			
+			
+			
 
 			<!-- <img width=100% src='{{asset('images/finallayout.png')}}' /> -->
 		</div>
