@@ -9377,6 +9377,42 @@ section.shadeCard .shade-content.active {
   display: block;
 }
 
+#shade-card-modal .modal-body .name {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 5px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0px;
+}
+
+#shade-card-modal .modal-body .ttx {
+  margin: 5px;
+  float: left;
+}
+
+#shade-card-modal .modal-body .pantone {
+  margin: 5px;
+  float: right;
+}
+
+#shade-card-modal .modal-body .herbs {
+  margin: 5px;
+  border-top: 1px solid #ddd;
+  padding: 10px 0px;
+}
+
+#shade-card-modal .modal-body .herbs span {
+  background: #eee;
+  padding: 3px 5px;
+  margin: 2px;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+#shade-card-modal .modal-header {
+  padding: 45px 10px;
+}
+
 .page-content.fabricsPage .page-hero {
   padding: 45px 0px;
   background: #9E95AE;

@@ -178,3 +178,37 @@ section.shadeCard{
 }
 
 
+#shade-card-modal{
+	.modal-body{
+		.name{
+			font-weight:bold;		
+			font-size:150%;	
+			margin:5px;
+			border-bottom: 1px solid #ddd;
+			padding: 10px 0px;
+		}
+		.ttx{
+			margin:5px;
+			float:left;
+		}
+		.pantone{
+			margin:5px;
+			float:right;
+		}
+		.herbs{
+			margin:5px;
+			border-top: 1px solid #ddd;
+			padding: 10px 0px;
+		}
+		.herbs span {
+			background: #eee;
+			padding: 3px 5px;
+			margin: 2px;
+			display: inline-block;
+			border-radius: 3px;
+		}
+	}
+	.modal-header{
+		padding:45px 10px;
+	}
+}
