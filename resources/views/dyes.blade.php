@@ -182,9 +182,7 @@
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<!-- <div class='pull-right'>
-						<button type="button" class="btn btn-secondary" data-dismiss="modal"><i class='fa fa-close'></i></button>		
-					</div> -->
+					
 				</div>
 				<div class="modal-body">
 
@@ -199,7 +197,11 @@
 			<p>
 				Each colour is made with special ingredients. Press on the colour to know what went in it.
 			</p>
-			<div class='card-wrapper'>
+			<div class='card-wrapper appendShades'>
+				
+			</div>
+
+			<!-- <div class='card-wrapper'>
 				<div data-toggle='shade-content-1' class='shade-card shade1'></div>
 				<div data-toggle='shade-content-2' class='shade-card shade2'></div>
 				<div data-toggle='shade-content-3' class='shade-card shade3'></div>
@@ -218,7 +220,7 @@
 				<div data-toggle='shade-content-16' class='shade-card shade16'></div>
 				<div data-toggle='shade-content-17' class='shade-card shade17'></div>
 				<div data-toggle='shade-content-18' class='shade-card shade18'></div>
-			</div>
+			</div> -->
 			<!-- Shade content 1 -->
 			<div class='row shade-content shade-content-1'>
 				<div class='col-md-6 col-lg-6 col-sm-7 col-xs-12'>

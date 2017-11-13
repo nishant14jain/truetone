@@ -934,6 +934,14 @@ var shadeCardData = {
 	}
 };
 
+function populateShades() {
+	var html = '';
+	Object.keys(shadeCardData).forEach(function (shade) {
+		html += '<div class="shade-card" data-shade="' + shade + '" style="background:' + shadeCardData[shade].color + '"></div>';
+	});
+	$('.appendShades').html(html);
+}
+
 function fillShadeModal(i) {
 	var html = '';
 	html += '<div class="name">' + shadeCardData[i].name + '</div>';
@@ -955,7 +963,7 @@ $(document).ready(function () {
 	var myElement = document.querySelector("header");
 	// construct an instance of Headroom, passing the element
 	var headroom = new Headroom(myElement);
-	// initialise
+	// initialize
 	headroom.init();
 
 	// $('.shade-card').click(function(){
@@ -966,8 +974,11 @@ $(document).ready(function () {
 	// 	$('.'+tar).show(0).addClass('active');
 	// });
 
+	populateShades();
+
 	$('.shade-card').click(function () {
-		fillShadeModal('madder-red');
+		var shade = $(this).attr('data-shade');
+		fillShadeModal(shade);
 		$('#shade-card-modal').modal();
 	});
 
