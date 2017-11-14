@@ -940,6 +940,11 @@ function populateShades() {
 		html += '<div class="shade-card" data-shade="' + shade + '" style="background:' + shadeCardData[shade].color + '"></div>';
 	});
 	$('.appendShades').html(html);
+	$('.shade-card').click(function () {
+		var shade = $(this).attr('data-shade');
+		fillShadeModal(shade);
+		$('#shade-card-modal').modal();
+	});
 }
 
 function fillShadeModal(i) {
@@ -966,21 +971,15 @@ $(document).ready(function () {
 	// initialize
 	headroom.init();
 
-	// $('.shade-card').click(function(){
-	// 	$('.shade-card').removeClass('active');
-	// 	$(this).addClass('active');
-	// 	var tar = $(this).attr('data-toggle');
-	// 	$('.shade-content').hide(0);
-	// 	$('.'+tar).show(0).addClass('active');
-	// });
+	$('.shade-card').click(function () {
+		$('.shade-card').removeClass('active');
+		$(this).addClass('active');
+		// var tar = $(this).attr('data-toggle');
+		// $('.shade-content').hide(0);
+		// $('.'+tar).show(0).addClass('active');
+	});
 
 	populateShades();
-
-	$('.shade-card').click(function () {
-		var shade = $(this).attr('data-shade');
-		fillShadeModal(shade);
-		$('#shade-card-modal').modal();
-	});
 
 	//replace img with svg
 	jQuery('img.svg').each(function () {

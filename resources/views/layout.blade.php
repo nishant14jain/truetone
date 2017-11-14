@@ -51,6 +51,38 @@
 	</header>
 
 	@yield('content')
+	<section class='certifications'>
+		<div class='container'>
+			<h1>Our Certifications</h1>
+			<div class='cert-item'>
+				<img src="{{asset('images/certifications/logo_1.jpg')}}">
+			</div>
+			<div class='cert-item'>
+				<img src="{{asset('images/certifications/logo_2.jpg')}}">
+			</div>
+			<div class='cert-item'>
+				<img src="{{asset('images/certifications/logo_3.jpg')}}">
+			</div>
+			<div class='cert-item'>
+				<img src="{{asset('images/certifications/logo_4.jpg')}}">
+			</div>
+			<div class='cert-item'>
+				<img src="{{asset('images/certifications/logo_5.jpg')}}">
+			</div>
+			<div class='cert-item'>
+				<img src="{{asset('images/certifications/logo_6.jpg')}}">
+			</div>
+			<div class='cert-item'>
+				<img src="{{asset('images/certifications/logo_7.jpg')}}">
+			</div>
+			<div class='cert-item'>
+				<img src="{{asset('images/certifications/logo_8.jpg')}}">
+			</div>
+			<div class='cert-item'>
+				<img src="{{asset('images/certifications/logo_9.jpg')}}">
+			</div>			
+		</div>
+	</section>
 	<section class='linkpages'>
 		<div class="container">
 			<div class='row'>
@@ -71,7 +103,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>	
 	<footer>
 		<h3 class='followUs'>Follow Us</h3>
 		<div class="social">
@@ -87,12 +119,28 @@
 			<div class='link'>Fabrics</div>
 		</div>
 		<div class='logo-wrapper'>
-			<img class='svg' src='{{asset('images/logo.svg')}}'>
+			<img class='svg' src="{{asset('images/logo.svg')}}">
 		</div>
 		<p class='legal'>
 			© Copyright 2017 | Truetone Inc. | All Rights Reserved
 		</p>
 	</footer>
+
+
+	<!-- Shade card popup -->
+	<div class="modal fade" id="shade-card-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					
+				</div>
+				<div class="modal-body">
+
+				</div>				
+			</div>
+		</div>
+	</div>
+
 	<script src='https://unpkg.com/headroom.js'></script>
 	<script src='{{asset('js/app.js')}}'></script>
 </body>
