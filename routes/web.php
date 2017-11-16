@@ -36,3 +36,6 @@ Route::get('/about', function () {
 Route::get('/dye-kits', function () {
     return view('dye-kits');
 });
+Route::get('/contact-us', function () {
+    return view('contact');
+});

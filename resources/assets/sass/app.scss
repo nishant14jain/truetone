@@ -74,6 +74,10 @@ p{
 	min-width:170px;
 }
 
+section.page-hero{
+	min-height:500px;
+}
+
 //Header ----------------------------------------------------
 
 .headnav{
@@ -405,3 +409,4 @@ section.certifications{
 @import "fabrics";
 @import "yarns";
 @import "dye-kits";
+@import "contact";

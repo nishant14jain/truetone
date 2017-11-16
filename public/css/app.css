@@ -8455,6 +8455,10 @@ p {
   min-width: 170px;
 }
 
+section.page-hero {
+  min-height: 500px;
+}
+
 .headnav {
   position: fixed;
   width: 100%;
@@ -9434,6 +9438,15 @@ section.shadeCard .shade-content.active {
   padding: 45px 10px;
 }
 
+section.dye-kits-strip {
+  text-align: center;
+}
+
+section.dye-kits-strip a.true-btn {
+  background: #00AE64;
+  color: white;
+}
+
 .page-content.fabricsPage .page-hero {
   padding: 45px 0px;
   background: #9E95AE;
@@ -9602,5 +9615,32 @@ section.shadeCard .shade-content.active {
 .dye-kit ul {
   padding-left: 20px;
   font-weight: lighter;
+}
+
+.page-content.contactPage .page-hero {
+  background: #00af64;
+}
+
+.page-content.contactPage .page-hero h1 {
+  color: white;
+}
+
+section.contact-form {
+  background: #f3f3f3;
+}
+
+#contact-form {
+  background: white;
+  padding: 25px;
+  margin-top: -220px;
+  position: relative;
+  -webkit-box-shadow: 0px 2px 17px -10px black;
+          box-shadow: 0px 2px 17px -10px black;
+}
+
+#contact-form h3 {
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 30px;
 }
 

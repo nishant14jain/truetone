@@ -9,6 +9,8 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- Styles -->
+	<link href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css' rel='stylesheet' type='text/css'>
+	<link href='//cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css' rel='stylesheet' type='text/css'>
 	<link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
 </head>
 
@@ -39,7 +41,7 @@
 						<a href='{{url("about")}}'>About Us</a>
 					</li>					
 					<li>
-						<a href='#!'>Contact</a>
+						<a href='{{url("contact-us")}}'>Contact</a>
 					</li>
 					<li>
 						<a href='{{url("terms")}}'>T&C</a>
@@ -97,7 +99,7 @@
 					</a>
 				</div>
 				<div class='contact col-md-4 col-lg-4 col-sm-4 col-xs-4'>
-					<a href="{{url('contact')}}">
+					<a href="{{url('contact-us')}}">
 						<h1>Contact Us</h1>
 					</a>
 				</div>
@@ -142,6 +144,7 @@
 	</div>
 
 	<script src='https://unpkg.com/headroom.js'></script>
-	<script src='{{asset('js/app.js')}}'></script>
+	<script src="{{asset('js/app.js')}}"></script>
+	<script src='//cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js'></script>
 </body>
 </html>

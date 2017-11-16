@@ -210,6 +210,21 @@
 			</div>
 		</div>
 	</section>
+	<section class='dye-kits-strip'>
+		<div class='container'>
+			<div class='col-md-8 col-lg-8 col-sm-8 col-xs-12'>
+				<h1>Explore our range of Herbal Dye Kits</h1>	
+			</div>
+			<div class='col-md-4 col-lg-4 col-sm-4 col-xs-12'>
+				<a href='{{ url("/dye-kits") }}' class="true-btn">
+					<span class="pull-left">Click Here</span>
+					<span class="pull-right"><i class="material-icons"></i></span>
+					<div class="clearfix"></div>
+				</a>
+			</div>
+			
+		</div>
+	</section>
 
 
 </div>
