@@ -39,3 +39,9 @@ Route::get('/dye-kits', function () {
 Route::get('/contact-us', function () {
     return view('contact');
 });
+Route::post('/contact','Contact@index');
+Route::get('/contact-email', [
+	'as'=>'emails.contact',
+	function () {
+    return view('contact');
+}]);

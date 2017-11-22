@@ -10,11 +10,18 @@
 	</section>
 	<section class='contact-form'>
 		<div class='container'>			
-			<form id="contact-form" method="post" action="contact.php" role="form">
+
+			<form id="contact-form" method="post" action="contact" role="form">
+				<input type="hidden" name="_token" id="csrf-token" value="{{ Session::token() }}" />
+
 				<h3>Please fill out the form start a conversation with us.<br> We are looking forward to hearing from you!
 					<br><small>(You can also email us directly at: <a href=''>info@truetoneinc.com</a>)</small>
 				</h3>
-				<div class="messages"></div>
+				<div class="messages">
+					@if(Session::has('success'))
+					<p class="alert {{ Session::get('alert-class', 'alert-info') }}">{{ Session::get('success') }}</p>
+					@endif
+				</div>
 				<div class="controls">
 					<div class="row">
 						<div class="col-md-6">
@@ -27,7 +34,7 @@
 						<div class="col-md-6">
 							<div class="form-group">
 								<label for="form_lastname">Lastname *</label>
-								<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+								<input id="form_lastname" type="text" name="lname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
@@ -36,14 +43,14 @@
 						<div class="col-md-6">
 							<div class="form-group">
 								<label for="form_name">Company Name</label>
-								<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your company name">
+								<input id="form_name" type="text" name="company" class="form-control" placeholder="Please enter your company name">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
 								<label for="form_lastname">Designation</label>
-								<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your designation">
+								<input id="form_lastname" type="text" name="designation" class="form-control" placeholder="Please enter your designation">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
@@ -68,14 +75,14 @@
 						<div class="col-md-6">
 							<div class="form-group">
 								<label for="form_name">Country</label>
-								<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your country name *">
+								<input id="form_name" type="text" name="country" class="form-control" placeholder="Please enter your country name *">
 								<div class="help-block with-errors"></div>
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
 								<label for="form_name">I want to know more about*:</label>
-								<select id='interestedIn' class='form-control' required="required" data-error="Please choose one option">
+								<select id='interestedIn' name="about" class='form-control' required="required" data-error="Please choose one option">
 									<option value=''>Select option</option>
 									<option value=''>Dyes</option>
 									<option value=''>Yarns</option>
